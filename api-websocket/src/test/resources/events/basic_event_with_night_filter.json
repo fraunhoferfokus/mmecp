@@ -1,0 +1,14 @@
+{
+  "useCaseID" : "BER ParkRide",
+  "context": {
+  	"select": "ParkingArea",
+  	"where": {
+  		"id": "Microzone_ABC",
+  		"type": ["free", "fee"]
+  	}
+  },
+  "filter": [
+      "working_day",
+      "time_band=night"
+  ]
+}

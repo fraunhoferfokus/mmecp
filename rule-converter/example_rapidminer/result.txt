@@ -1,0 +1,674 @@
+
+(ns carneades.engine.streetlife-rules
+    (:use clojure.pprint
+          carneades.engine.statement
+          carneades.engine.theory
+          carneades.engine.argument
+          carneades.engine.argument-graph
+          carneades.engine.argument-generator
+          carneades.engine.argument-evaluation
+          carneades.engine.aspic
+          carneades.engine.shell
+          carneades.engine.dublin-core
+          carneades.engine.policy
+          carneades.engine.ask
+          carneades.maps.lacij)
+    (:require [carneades.project.fs :as project]
+              [carneades.maps.lacij :refer [export]]
+              [carneades.database.db :as db]
+              [carneades.database.argument-graph :as ag-db]
+              [carneades.database.import :refer [import-from-argument-graph]]
+
+              [clojure.pprint :refer :all]
+              [midje.sweet :refer :all :exclude [facts]]
+    )
+)
+	
+(def forecastModalSplit
+    (make-theory
+        :header (make-metadata
+        :title "Modal Split Forecast"
+        :creator "Kevin van Bernum"
+        :publisher "Fraunhofer FOKUS"
+        :date "2014"
+        :description {:en "Forecast of modal split for an event."})
+        :schemes S
+    )
+)
+(def S [
+
+    (make-scheme
+        :id 'mode
+        :conclusion '(has_mode ?E ?P ?M)
+        :premises [
+            (pm '(visit ?P ?E))
+            (pm '(move ?P ?M))
+        ]
+    )
+
+    
+    (make-scheme
+        :id 'visit-1
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (> ?A a) ?A a))))
+            (pm '(occupation employee ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 53.500] (if (> ?A a) ?A a))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-2
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (> ?A a) ?A a))))
+            (pm '(occupation employee ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 53.500] (if (<= ?A a) ?A a))))
+            (pm '(time ?T ?E))
+            (pm '(eval ?T (let [t 1065] (if (> ?T t) ?T t))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-3
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (> ?A a) ?A a))))
+            (pm '(occupation employee ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 53.500] (if (<= ?A a) ?A a))))
+            (pm '(time ?T ?E))
+            (pm '(eval ?T (let [t 1065] (if (<= ?T t) ?T t))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-4
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (> ?A a) ?A a))))
+            (pm '(occupation unemployed ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 53] (if (> ?A a) ?A a))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-5
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (> ?A a) ?A a))))
+            (pm '(occupation unemployed ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 53] (if (<= ?A a) ?A a))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-6
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (<= ?A a) ?A a))))
+            (pm '(gender female ?P))
+            (pm '(occupation employee ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 40.500] (if (> ?A a) ?A a))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-7
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (<= ?A a) ?A a))))
+            (pm '(gender female ?P))
+            (pm '(occupation employee ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 40.500] (if (<= ?A a) ?A a))))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 37.500] (if (> ?A a) ?A a))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-8
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (<= ?A a) ?A a))))
+            (pm '(gender female ?P))
+            (pm '(occupation employee ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 40.500] (if (<= ?A a) ?A a))))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 37.500] (if (<= ?A a) ?A a))))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 28.500] (if (> ?A a) ?A a))))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 35.500] (if (> ?A a) ?A a))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-9
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (<= ?A a) ?A a))))
+            (pm '(gender female ?P))
+            (pm '(occupation employee ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 40.500] (if (<= ?A a) ?A a))))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 37.500] (if (<= ?A a) ?A a))))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 28.500] (if (> ?A a) ?A a))))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 35.500] (if (<= ?A a) ?A a))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-10
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (<= ?A a) ?A a))))
+            (pm '(gender female ?P))
+            (pm '(occupation employee ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 40.500] (if (<= ?A a) ?A a))))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 37.500] (if (<= ?A a) ?A a))))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 28.500] (if (<= ?A a) ?A a))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-11
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (<= ?A a) ?A a))))
+            (pm '(gender female ?P))
+            (pm '(occupation student ?P))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-12
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (<= ?A a) ?A a))))
+            (pm '(gender female ?P))
+            (pm '(occupation unemployed ?P))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-13
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (<= ?A a) ?A a))))
+            (pm '(gender male ?P))
+            (pm '(marital divorced ?P))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-14
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (<= ?A a) ?A a))))
+            (pm '(gender male ?P))
+            (pm '(marital married ?P))
+            (pm '(occupation employee ?P))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-15
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (<= ?A a) ?A a))))
+            (pm '(gender male ?P))
+            (pm '(marital married ?P))
+            (pm '(occupation student ?P))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-16
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (<= ?A a) ?A a))))
+            (pm '(gender male ?P))
+            (pm '(marital single ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 32] (if (> ?A a) ?A a))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-17
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (<= ?A a) ?A a))))
+            (pm '(gender male ?P))
+            (pm '(marital single ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 32] (if (<= ?A a) ?A a))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-18
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type concert ?E))
+            (pm '(location o2 ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 48.500] (if (<= ?A a) ?A a))))
+            (pm '(gender male ?P))
+            (pm '(marital widowed ?P))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-19
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type culture ?E))
+            (pm '(location thf ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 49.500] (if (> ?A a) ?A a))))
+            (pm '(occupation employee ?P))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-20
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type culture ?E))
+            (pm '(location thf ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 49.500] (if (> ?A a) ?A a))))
+            (pm '(occupation unemployed ?P))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-21
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type culture ?E))
+            (pm '(location thf ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 49.500] (if (<= ?A a) ?A a))))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 25] (if (> ?A a) ?A a))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-22
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type culture ?E))
+            (pm '(location thf ?E))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 49.500] (if (<= ?A a) ?A a))))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 25] (if (<= ?A a) ?A a))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-23
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type mixed ?E))
+            (pm '(location thf ?E))
+            (pm '(marital divorced ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 34.500] (if (> ?A a) ?A a))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-24
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type mixed ?E))
+            (pm '(location thf ?E))
+            (pm '(marital divorced ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 34.500] (if (<= ?A a) ?A a))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-25
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type mixed ?E))
+            (pm '(location thf ?E))
+            (pm '(marital married ?P))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-26
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type mixed ?E))
+            (pm '(location thf ?E))
+            (pm '(marital single ?P))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-27
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type mixed ?E))
+            (pm '(location thf ?E))
+            (pm '(marital widowed ?P))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-28
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type sport ?E))
+            (pm '(marital divorced ?P))
+            (pm '(occupation employee ?P))
+            (pm '(location o2 ?E))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-29
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type sport ?E))
+            (pm '(marital divorced ?P))
+            (pm '(occupation employee ?P))
+            (pm '(location thf ?E))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-30
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type sport ?E))
+            (pm '(marital married ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 24] (if (> ?A a) ?A a))))
+            (pm '(date ?D ?E))
+            (pm '(eval ?D (let [d 4] (if (> ?D d) ?D d))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-31
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type sport ?E))
+            (pm '(marital married ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 24] (if (> ?A a) ?A a))))
+            (pm '(date ?D ?E))
+            (pm '(eval ?D (let [d 4] (if (<= ?D d) ?D d))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-32
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type sport ?E))
+            (pm '(marital married ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 24] (if (<= ?A a) ?A a))))
+            (pm '(gender female ?P))
+            (pm '(occupation employee ?P))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-33
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type sport ?E))
+            (pm '(marital married ?P))
+            (pm '(age ?A ?P))
+            (pm '(eval ?A (let [a 24] (if (<= ?A a) ?A a))))
+            (pm '(gender female ?P))
+            (pm '(occupation unemployed ?P))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-34
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type sport ?E))
+            (pm '(marital single ?P))
+            (pm '(occupation employee ?P))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-35
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type sport ?E))
+            (pm '(marital single ?P))
+            (pm '(occupation unemployed ?P))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-36
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type sport ?E))
+            (pm '(marital widowed ?P))
+            (pm '(occupation employee ?P))
+            (pm '(date ?D ?E))
+            (pm '(eval ?D (let [d 1.500] (if (> ?D d) ?D d))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-37
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type sport ?E))
+            (pm '(marital widowed ?P))
+            (pm '(occupation employee ?P))
+            (pm '(date ?D ?E))
+            (pm '(eval ?D (let [d 1.500] (if (<= ?D d) ?D d))))
+        ]
+    )
+            
+    (make-scheme
+        :id 'visit-38
+        :conclusion '(visit ?P ?E)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            
+            (pm '(type sport ?E))
+            (pm '(marital widowed ?P))
+            (pm '(occupation unemployed ?P))
+        ]
+    )
+            
+])
+        

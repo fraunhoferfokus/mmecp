@@ -1,0 +1,7106 @@
+[
+  {
+    "_id": {
+      "$oid": "54579046975a3b0c5b2e00f0"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "oreste",
+    "time": "2014-11-03T14:25:10.668Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 2,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "nyhobbit",
+        "time": {
+          "$numberLong": "1415006371003"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "16261"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54587249975ab6d55338eb87"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "diego",
+    "time": "2014-11-04T06:29:29.853Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 18,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Matteo",
+        "time": {
+          "$numberLong": "1414771973282"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "17199"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "545875b6975ab6d55338eb88"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "diego",
+    "time": "2014-11-04T06:44:06.983Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 27,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "oreste",
+        "time": {
+          "$numberLong": "1415024710668"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "17198"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54589a4e975ab6d55338eb8b"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "maurizio",
+    "time": "2014-11-04T09:20:14.247Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 75,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "diego",
+        "time": {
+          "$numberLong": "1415083446983"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "17659"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54589bca975ab6d55338eb8c"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "maurizio",
+    "time": "2014-11-04T09:26:34.848Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 31,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "diego",
+        "time": {
+          "$numberLong": "1415082569853"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "17658"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5458dd89975a524ff864864a"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "maurizio",
+    "time": "2014-11-04T14:07:05.713Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 32,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "maurizio",
+        "time": {
+          "$numberLong": "1415092814247"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "17665"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5458e339975a524ff8648659"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "maurizio",
+    "time": "2014-11-04T14:31:21.438Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 23,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "maurizio",
+        "time": {
+          "$numberLong": "1415093194848"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "17666"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5458ff07975ae3d7528fcd99"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "maurizio",
+    "time": "2014-11-04T16:29:59.318Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 43,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "maurizio",
+        "time": {
+          "$numberLong": "1415110025713"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "18151"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "545900a2975ae3d7528fcd9a"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "maurizio",
+    "time": "2014-11-04T16:36:50.525Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 38,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "maurizio",
+        "time": {
+          "$numberLong": "1415111481438"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "18152"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5459c97f975ae3d7528fcd9b"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "diego",
+    "time": "2014-11-05T06:53:51.811Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 21,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "maurizio",
+        "time": {
+          "$numberLong": "1415118599318"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "18617"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5459cf06975ae3d7528fcd9c"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "diego",
+    "time": "2014-11-05T07:17:26.841Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 21,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "maurizio",
+        "time": {
+          "$numberLong": "1415119010525"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "18618"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5459f4d4975ae3d7528fce31"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "diego",
+    "time": "2014-11-05T09:58:44.791Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 30,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "diego",
+        "time": {
+          "$numberLong": "1415171846841"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "18620"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5459f4d9975ae3d7528fce32"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "diego",
+    "time": "2014-11-05T09:58:49.646Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 0,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "diego",
+        "time": {
+          "$numberLong": "1415181524791"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "18769"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5459f728975ae3d7528fce3b"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "diego",
+    "time": "2014-11-05T10:08:40.332Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 37,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "diego",
+        "time": {
+          "$numberLong": "1415170431811"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "18619"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "545a2e13975ae3d7528fced1"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Maurizio",
+    "time": "2014-11-05T14:02:59.420Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 46,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "diego",
+        "time": {
+          "$numberLong": "1415182120332"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "18779"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "545a349b975ae3d7528fcef6"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Maurizio",
+    "time": "2014-11-05T14:30:51.106Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 22,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "diego",
+        "time": {
+          "$numberLong": "1415181529646"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "18770"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "545a541a975ae3d7528fcfa6"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "maurizio",
+    "time": "2014-11-05T16:45:14.569Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 36,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Maurizio",
+        "time": {
+          "$numberLong": "1415196179420"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "18929"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "545a5998975ae3d7528fcfc9"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "maurizio",
+    "time": "2014-11-05T17:08:40.275Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 27,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Maurizio",
+        "time": {
+          "$numberLong": "1415197851106"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "18966"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "545b1a0f975ae3d7528fcffb"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-06T06:49:51.794Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 18,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "maurizio",
+        "time": {
+          "$numberLong": "1415207320275"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "19635"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "545b1bd7975ae3d7528fcffc"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-06T06:57:27.392Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 23,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "maurizio",
+        "time": {
+          "$numberLong": "1415205914569"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "19600"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "545b465c975ae3d7528fcffd"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-06T09:58:52.595Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 35,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415257047392"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "19686"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "545b47bb975ae3d7528fcffe"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-06T10:04:43.807Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 28,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415256591794"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "19685"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "545b7dbe975ae3d7528fcfff"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-06T13:55:10.722Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 30,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415268283807"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "19688"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "545b7e17975ae3d7528fd000"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-06T13:56:39.237Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 30,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415282110722"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "19689"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "545b80e1975ae3d7528fd002"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-06T14:08:33.702Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 57,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415267932595"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "19687"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "545ba31a975a45c4556fb46d"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-06T16:34:34.336Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 47,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415282199237"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "20185"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "545ba721975a45c4556fb46e"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-06T16:51:45.006Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 43,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415282913702"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "20184"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54606323975a45c4556fb4c0"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-10T07:02:59.146Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 21,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415291674336"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "20657"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54606612975a45c4556fb4c1"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-10T07:15:30.526Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 23,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415292705006"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "20658"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54609003975a45c4556fb4c9"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-10T10:14:27.400Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 31,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415602979146"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "22144"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54609015975a45c4556fb4ca"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-10T10:14:45.590Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 45,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415603730526"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "22145"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5460c649975a810bfc236f74"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-10T14:06:01.608Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 38,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415614467400"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "22628"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5460c666975a810bfc236f75"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-10T14:06:30.225Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 58,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415614485590"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "22627"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5460efe2975a810bfc236f7f"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-10T17:03:30.108Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 44,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415628361608"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "23101"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5460f0d5975a810bfc236f80"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-10T17:07:33.044Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 28,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415628390225"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "23102"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5463096b975ab6372c007907"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-12T07:16:59.271Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 35,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415639253044"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "23627"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54630989975ab6372c007908"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-12T07:17:29.516Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 16,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415639010108"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "23628"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546341f5975ab6372c00790e"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-12T11:18:13.328Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 53,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415776619271"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "24097"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54634207975ab6372c00790f"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-12T11:18:31.926Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 16,
+      "slotsUnavailable": 33,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415776649516"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "24098"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546366c8975ab6372c007910"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-12T13:55:20.286Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 44,
+      "slotsUnavailable": 33,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415791111926"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "24105"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546366eb975ab6372c007911"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-12T13:55:55.057Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 48,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415791093328"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "24104"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546388f6975ab6372c007918"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-12T16:21:10.832Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 31,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415800555057"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "24107"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546389e2975ab6372c007919"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "baroncini",
+    "time": "2014-11-12T16:25:06.242Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 55,
+      "slotsUnavailable": 33,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415800520286"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "24106"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54699bc2975af995f40e9115"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "cobbe",
+    "time": "2014-11-17T06:54:58.123Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 33,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415809270832"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "25565"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54699bda975af995f40e9116"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "cobbe",
+    "time": "2014-11-17T06:55:22.853Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 19,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "baroncini",
+        "time": {
+          "$numberLong": "1415809506242"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "25566"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5469ccef975af995f40e9125"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Oreste",
+    "time": "2014-11-17T10:24:47.862Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 38,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "cobbe",
+        "time": {
+          "$numberLong": "1416207298123"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "26987"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5469cd0e975af995f40e9126"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Oreste",
+    "time": "2014-11-17T10:25:18.019Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 25,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "cobbe",
+        "time": {
+          "$numberLong": "1416207322853"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "26988"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546a01e0975af995f40e9127"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Oreste",
+    "time": "2014-11-17T14:10:40.916Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 22,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Oreste",
+        "time": {
+          "$numberLong": "1416219918019"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "27004"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546a031f975af995f40e9128"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Oreste",
+    "time": "2014-11-17T14:15:59.137Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 29,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Oreste",
+        "time": {
+          "$numberLong": "1416219887862"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "27003"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546a034a975af995f40e9129"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Oreste",
+    "time": "2014-11-17T14:16:42.754Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 29,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Oreste",
+        "time": {
+          "$numberLong": "1416233759137"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "27006"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546a2784975af995f40e9136"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Oreste",
+    "time": "2014-11-17T16:51:16.900Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 18,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Oreste",
+        "time": {
+          "$numberLong": "1416233802754"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "27007"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546a27a2975af995f40e9137"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Oreste",
+    "time": "2014-11-17T16:51:46.291Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 41,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Oreste",
+        "time": {
+          "$numberLong": "1416233440916"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "27005"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546d9da4975ab5277c9568a2"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Oreste",
+    "time": "2014-11-20T07:52:04.858Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 23,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Oreste",
+        "time": {
+          "$numberLong": "1416243106291"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "27509"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546d9dba975ab5277c9568a3"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Oreste",
+    "time": "2014-11-20T07:52:26.692Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 31,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Oreste",
+        "time": {
+          "$numberLong": "1416243076900"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "27508"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546db917975ab5277c9568a4"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Oreste",
+    "time": "2014-11-20T09:49:11.649Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 46,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Oreste",
+        "time": {
+          "$numberLong": "1416469946692"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "28505"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546dbcfa975ab5277c9568a5"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Oreste",
+    "time": "2014-11-20T10:05:46.397Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 41,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Oreste",
+        "time": {
+          "$numberLong": "1416469924858"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "28504"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546df6af975ab5277c9568b7"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Oreste",
+    "time": "2014-11-20T14:11:59.067Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 32,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Oreste",
+        "time": {
+          "$numberLong": "1416477946397"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "28981"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546df832975ab5277c9568b8"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Oreste",
+    "time": "2014-11-20T14:18:26.868Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 72,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Oreste",
+        "time": {
+          "$numberLong": "1416476951649"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "28980"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546e1cf7975ab5277c9568b9"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Oreste",
+    "time": "2014-11-20T16:55:19.735Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 43,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Oreste",
+        "time": {
+          "$numberLong": "1416493106868"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "29000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "546e1d32975ab5277c9568ba"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Oreste",
+    "time": "2014-11-20T16:56:18.560Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 48,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Oreste",
+        "time": {
+          "$numberLong": "1416492719067"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "28999"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54757bc5975aa8c5e19522e5"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "cobbe",
+    "time": "2014-11-26T07:05:41.725Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 16,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Oreste",
+        "time": {
+          "$numberLong": "1416502519735"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "31407"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54757bee975aa8c5e19522e6"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "cobbe",
+    "time": "2014-11-26T07:06:22.060Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 21,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Oreste",
+        "time": {
+          "$numberLong": "1416502578560"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "31408"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5475a463975aa8c5e19522ed"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "cobbe",
+    "time": "2014-11-26T09:58:59.447Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 45,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "cobbe",
+        "time": {
+          "$numberLong": "1416985582060"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "31891"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5475a476975aa8c5e19522ee"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "cobbe",
+    "time": "2014-11-26T09:59:18.537Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 61,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "cobbe",
+        "time": {
+          "$numberLong": "1416985541725"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "31890"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5475f600975aa8c5e19522f9"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "cobbe",
+    "time": "2014-11-26T15:47:12.113Z",
+    "value": {
+      "_id": "parking@rovereto@2",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 44,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "cobbe",
+        "time": {
+          "$numberLong": "1416995958537"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.88460901729133,
+        11.02373119702531
+      ],
+      "name": "MANIFATTURA",
+      "updateTime": {
+        "$numberLong": "1414079018017"
+      },
+      "version": {
+        "$numberLong": "31899"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5475f61d975aa8c5e19522fa"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "cobbe",
+    "time": "2014-11-26T15:47:41.434Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 56,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "cobbe",
+        "time": {
+          "$numberLong": "1416995939447"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "31898"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54760cd2975aa8c5e19522fb"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "cobbe",
+    "time": "2014-11-26T17:24:34.527Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 69,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "cobbe",
+        "time": {
+          "$numberLong": "1417016861434"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "32385"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5482c6c8975af1ddbfd2042e"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-06T09:05:12.922Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 23,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "cobbe",
+        "time": {
+          "$numberLong": "1417022674527"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "37210"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5482cd2d975af1ddbfd2042f"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-06T09:32:29.360Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 31,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1417856712922"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "37685"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5482d3b4975af1ddbfd20430"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-06T10:00:20.371Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 36,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1417858349360"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "37686"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5482dae7975af1ddbfd20431"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-06T10:31:03.904Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 45,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1417860020371"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "37687"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5482e1f4975af1ddbfd20432"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-06T11:01:08.569Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 48,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1417861863904"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "37688"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5482e8e6975af1ddbfd20433"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-06T11:30:46.704Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 49,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1417863668569"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "37689"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5482eff4975af1ddbfd20434"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-06T12:00:52.076Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 70,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1417865446704"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "37690"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5482f6fd975af1ddbfd20435"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-06T12:30:53.434Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 73,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1417867252076"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "37691"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5482fdc6975af1ddbfd20436"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-06T12:59:50.532Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 98,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1417869053434"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "37692"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5483052c975af1ddbfd20437"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-06T13:31:24.661Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 100,
+      "slotsUnavailable": 33,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1417870790532"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "37693"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54830a78975af1ddbfd20438"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-06T13:54:00.473Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 92,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1417872684661"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "37694"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548311ef975af1ddbfd20439"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-06T14:25:51.230Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 99,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1417874040473"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "37695"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54831a94975af1ddbfd2043a"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-06T15:02:44.847Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 100,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1417875951230"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "37696"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5483208e975af1ddbfd2043b"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-06T15:28:14.553Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 95,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1417878164847"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "37697"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54832749975af1ddbfd2043c"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-06T15:56:57.827Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 81,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1417879694553"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "37698"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54832c5d975af1ddbfd2043d"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-06T16:18:37.711Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 81,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1417881417827"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "38173"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54832f51975af1ddbfd2043e"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-06T16:31:13.979Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 85,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1417882717711"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "38174"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5483353f975af1ddbfd2043f"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-06T16:56:31.210Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 89,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1417883473979"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "38175"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54833c85975af1ddbfd20440"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-06T17:27:33.112Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 80,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1417884991210"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "38176"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54834378975af1ddbfd20441"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-06T17:57:12.817Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 66,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1417886853112"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "38177"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c00ba975a4b67bffb3e36"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-13T09:02:50.124Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 50,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Terry",
+        "time": {
+          "$numberLong": "1418405162016"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41502"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c06ec975a4b67bffb3e37"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-13T09:29:16.647Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 51,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1418461370124"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41503"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c0dc0975a4b67bffb3e38"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-13T09:58:24.349Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 54,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1418462956647"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41504"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c1075975a4b67bffb3e39"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-13T10:09:57.765Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 53,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1418464704349"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41505"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c1495975a4b67bffb3e3a"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-13T10:27:33.296Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 61,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1418465397765"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41506"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c1bb1975a4b67bffb3e3b"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-13T10:57:53.315Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 60,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1418466453296"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41507"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c2331975a4b67bffb3e3c"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-13T11:29:53.682Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 55,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1418468273315"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41508"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c28cf975a4b67bffb3e3d"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-13T11:53:51.590Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 49,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1418470193682"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41509"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c313f975a4b67bffb3e3e"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-13T12:29:51.159Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 62,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1418471631590"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41510"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c37f6975a4b67bffb3e3f"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-13T12:58:30.835Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 53,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1418473791159"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41511"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c4010975a4b67bffb3e40"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-13T13:33:04.180Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 57,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1418475510835"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41512"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c45c0975a4b67bffb3e41"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-13T13:57:20.788Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 67,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1418477584180"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41513"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c4cf4975a4b67bffb3e42"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-13T14:28:04.577Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 70,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1418479040788"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41514"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c53de975a4b67bffb3e43"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-13T14:57:34.490Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 58,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1418480884577"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41515"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c5b29975a4b67bffb3e44"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-13T15:28:41.263Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 57,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1418482654490"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41516"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c61ac975a4b67bffb3e45"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-13T15:56:28.286Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 56,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1418484521263"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41517"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c69d4975a4b67bffb3e46"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-13T16:31:16.105Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 58,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1418486188286"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41518"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c6fe3975a4b67bffb3e47"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-13T16:57:07.167Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 52,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1418488276105"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41519"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c76f2975a4b67bffb3e48"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-13T17:27:14.193Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 48,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1418489827167"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41520"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548c7dff975a4b67bffb3e49"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-13T17:57:19.005Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 41,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1418491634193"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "41995"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54953aba975a8354869a2195"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T09:00:42.575Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 25,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1418493439005"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "44846"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549541c0975a8354869a2196"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T09:30:40.401Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 38,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419066042575"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45321"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54954904975a8354869a2197"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T10:01:40.828Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 35,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419067840401"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45322"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54954fe6975a8354869a2198"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T10:31:02.131Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 38,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419069700828"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45323"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54955710975a8354869a2199"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T11:01:36.582Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 31,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419071462131"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45324"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54955dd4975a8354869a219a"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T11:30:28.009Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 29,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419073296582"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45325"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54956682975a8354869a219b"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T12:07:30.569Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 28,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419075028009"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45326"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54956c58975a8354869a219c"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T12:32:24.198Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 27,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419077250569"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45327"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549572d2975a8354869a219d"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T13:00:02.338Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 45,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419078744198"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45328"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54957afb975a8354869a219e"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T13:34:51.628Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 42,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419080402338"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45329"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549580e7975a8354869a219f"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T14:00:07.080Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 43,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419082491628"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45330"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549587c0975a8354869a21a0"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T14:29:20.549Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 39,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419084007080"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45331"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54958e7f975a8354869a21a1"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T14:58:07.536Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 37,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419085760549"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45332"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549595c4975a8354869a21a2"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T15:29:08.699Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 36,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419087487536"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45333"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54959d32975a8354869a21a3"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T16:00:50.545Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 29,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419089348699"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45808"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5495a502975a8354869a21a4"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T16:34:10.731Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 28,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419091250545"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45809"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5495ab0d975a8354869a21a5"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T16:59:57.010Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 30,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419093250731"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45810"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5495b251975a8354869a21a6"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T17:30:57.151Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 25,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419094797010"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45811"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5495b958975a8354869a21a7"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-20T18:00:56.630Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 24,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419096657151"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45812"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54968d6c975a8354869a21a8"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T09:05:48.541Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 28,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419098456630"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45813"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54969304975a8354869a21a9"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T09:29:40.058Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 28,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419152748541"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45814"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54969984975a8354869a21aa"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T09:57:24.880Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 29,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419154180058"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45815"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5496a114975a8354869a21ab"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T10:29:40.904Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 32,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419155844880"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45816"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5496a79b975a8354869a21ac"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T10:57:31.130Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 31,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419157780904"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45817"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5496aece975a8354869a21ad"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T11:28:14.655Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 31,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419159451130"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45818"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5496b528975a8354869a21ae"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T11:55:20.236Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 26,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419161294655"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45819"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5496bc72975a8354869a21af"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T12:26:26.231Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 27,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419162920236"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45820"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5496c3f4975a8354869a21b0"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T12:58:28.540Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 27,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419164786231"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45821"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5496cae0975a8354869a21b1"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T13:28:00.889Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 33,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419166708540"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45822"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5496d273975a8354869a21b2"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T14:00:19.969Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 31,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419168480889"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45823"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5496d9bb975a8354869a21b3"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T14:31:23.410Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 33,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419170419969"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45824"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5496e091975a8354869a21b4"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T15:00:33.061Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 34,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419172283410"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45825"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5496e77f975a8354869a21b5"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T15:30:07.705Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 32,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419174033061"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "45826"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5496ee89975a8354869a21b6"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T16:00:09.708Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 28,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419175807705"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46301"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5496f594975a8354869a21b7"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T16:30:12.028Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 23,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419177609708"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46302"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5496fca8975a8354869a21b8"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T17:00:24.344Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 22,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419179412028"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46303"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549703c8975a8354869a21b9"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T17:30:48.036Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 25,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419181224344"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46304"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54970ae1975a8354869a21ba"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-21T18:01:05.566Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 21,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419183048036"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46305"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5497dddd975a8354869a21bb"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-22T09:01:17.940Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 20,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419184865566"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46306"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5497e4a4975a8354869a21bc"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-22T09:30:12.073Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 22,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419238877940"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46307"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5497ebab975a8354869a21bd"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-22T10:00:11.008Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 26,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419240612073"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46308"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5497f373975a8354869a21be"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-22T10:33:23.485Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 21,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419242411008"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46309"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5497f9f6975a8354869a21bf"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-22T11:01:10.297Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 23,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419244403485"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46310"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549800c0975a8354869a21c0"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-22T11:30:08.601Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 25,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419246070297"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46311"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549807c9975a8354869a21c1"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-22T12:00:09.953Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 21,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419247808601"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46312"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54980ed6975a8354869a21c2"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-22T12:30:14.436Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 22,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419249609953"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46313"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549815d6975a8354869a21c3"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-22T13:00:06.961Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 22,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419251414436"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46314"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54981f16975a8354869a21c4"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-22T13:39:34.276Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 29,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419253206961"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46315"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5498247d975a8354869a21c5"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-22T14:02:37.039Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 32,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419255574276"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46316"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54982ab7975a8354869a21c6"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-22T14:29:11.914Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 30,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419256957039"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46317"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54983213975a8354869a21c7"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-22T15:00:35.538Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 32,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419258551914"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46318"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54983ad4975a8354869a21c8"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-22T15:37:56.842Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 28,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419260435538"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46319"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5498407f975a8354869a21c9"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-22T16:02:07.664Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 37,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419262676842"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46794"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549846d3975a8354869a21ca"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-22T16:29:07.435Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 35,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419264127664"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46795"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54984e0f975a8354869a21cb"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-22T16:59:59.776Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 43,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419265747435"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46796"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54985536975a8354869a21cc"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-22T17:30:30.593Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 37,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419267599776"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46797"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54985c0f975a8354869a21cd"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-22T17:59:43.867Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 44,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419269430593"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46798"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5499300d975a8354869a21ce"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-23T09:04:13.579Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 19,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419271183867"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46799"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54993623975a8354869a21cf"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-23T09:30:11.563Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 21,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419325453579"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46800"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54993d8e975a8354869a21d0"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-23T10:01:50.000Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 22,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419327011563"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46801"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54994437975a8354869a21d1"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-23T10:30:15.511Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 21,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419328910000"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46802"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54994b7b975a8354869a21d2"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-23T11:01:15.511Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 24,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419330615511"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46803"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5499523c975a8354869a21d3"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-23T11:30:04.940Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 19,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419332475511"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46804"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5499594d975a8354869a21d4"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-23T12:00:13.674Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 22,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419334204940"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46805"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5499596c975a8354869a21d5"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-23T12:00:44.035Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 22,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419336013674"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46806"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5499608a975a8354869a21d6"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-23T12:31:06.562Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 17,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419336044035"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46807"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549967a4975a8354869a21d7"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-23T13:01:24.769Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 18,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419337866562"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46808"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54996f3a975a8354869a21d8"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-23T13:33:46.403Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 19,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419339684769"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46809"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549976d5975a8354869a21d9"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-23T14:06:13.080Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 22,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419341626403"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46810"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54997c85975a8354869a21da"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-23T14:30:29.797Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 24,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419343573080"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46811"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54998335975a8354869a21db"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-23T14:59:01.471Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 19,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419345029797"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46812"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54998a7e975a8354869a21dc"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-23T15:30:06.358Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 22,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419346741471"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "46813"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5499919d975a8354869a21dd"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-23T16:00:29.963Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 22,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419348606358"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47288"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549998b9975a8354869a21de"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-23T16:30:49.166Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 24,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419350429963"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47289"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54999fb8975a8354869a21df"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-23T17:00:40.216Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 31,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419352249166"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47290"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5499a6ca975a8354869a21e0"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-23T17:30:50.264Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 23,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419354040216"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47291"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5499ae38975a8354869a21e1"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-23T18:02:32.610Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 29,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419355850264"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47292"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549a80ad975a8354869a21e2"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-24T09:00:29.250Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 12,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419357752610"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47293"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549a879f975a8354869a21e3"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-24T09:30:07.409Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 15,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419411629250"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47294"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549a8ea5975a8354869a21e4"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-24T10:00:05.998Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 24,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419413407409"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47295"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549a95f9975a8354869a21e5"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-24T10:31:21.308Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 24,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419415205998"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47296"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549a9b4b975a8354869a21e6"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-24T10:54:03.564Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 21,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419417081308"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47297"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549aa3be975a8354869a21e7"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-24T11:30:06.920Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 15,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419418443564"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47298"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549aaaf5975a8354869a21e8"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-24T12:00:53.200Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 16,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419420606920"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47299"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ab1cb975a8354869a21e9"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-24T12:30:03.414Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 13,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419422453200"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47300"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ab8d8975a8354869a21ea"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-24T13:00:08.306Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 12,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419424203414"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47301"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ac007975a8354869a21eb"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-24T13:30:47.296Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 15,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419426008306"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47302"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ac6ea975a8354869a21ec"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-24T14:00:10.367Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 20,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419427847296"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47303"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ace37975a8354869a21ed"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-24T14:31:19.528Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 19,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419429610367"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47304"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ad5df975a8354869a21ee"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-24T15:03:59.135Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 20,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419431479528"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47305"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549adc06975a8354869a21ef"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-24T15:30:14.680Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 15,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419433439135"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47306"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ae2fb975a8354869a21f0"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-24T15:59:55.918Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 15,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419435014680"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47781"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ae9bb975a8354869a21f1"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-24T16:28:43.461Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 10,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419436795918"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47782"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549af147975a8354869a21f2"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-24T17:00:55.938Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 9,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419438523461"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47783"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549af823975a8354869a21f3"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-24T17:30:11.178Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 8,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419440455938"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47784"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549aff1b975a8354869a21f4"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-24T17:59:55.583Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 11,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419442211178"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47785"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549e75c8975a8354869a21f5"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-27T09:03:04.374Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 24,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419443995583"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "47786"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549e7c20975a8354869a21f6"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-27T09:30:08.018Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 25,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419670984374"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "48735"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549e832d975a8354869a21f7"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-27T10:00:13.282Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 27,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419672608018"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "48736"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549e8a35975a8354869a21f8"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-27T10:30:13.646Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 27,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419674413282"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "48737"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549e9171975a8354869a21f9"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-27T11:01:05.294Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 26,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419676213646"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "48738"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549e9844975a8354869a21fa"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-27T11:30:12.251Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 15,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419678065294"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "48739"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549e9f55975a8354869a21fb"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-27T12:00:21.772Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 17,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419679812251"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "48740"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ea9df975a8354869a21fc"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-27T12:45:19.236Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 14,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419681621772"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "48741"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ead5e975a8354869a21fd"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-27T13:00:14.172Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 12,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419684319236"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "48742"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549eb4b0975a8354869a21fe"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Beatrice",
+    "time": "2014-12-27T13:31:28.799Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 14,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419685214172"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "48743"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ebc3e975a8354869a21ff"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-27T14:03:42.130Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 11,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Beatrice",
+        "time": {
+          "$numberLong": "1419687088799"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "48744"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ec2af975a8354869a2200"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-27T14:31:11.532Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 13,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419689022130"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "48745"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ec975975a8354869a2201"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-27T15:00:05.740Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 11,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419690671532"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "48746"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ed272975a8354869a2202"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-27T15:38:26.410Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 10,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419692405740"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "48747"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ed8aa975a8354869a2203"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-27T16:04:58.198Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 13,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419694706410"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "49222"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ede95975a8354869a2204"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-27T16:30:13.929Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 9,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419696298198"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "49223"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ee59a975a8354869a2205"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-27T17:00:10.855Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 8,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419697813929"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "49224"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549eecaf975a8354869a2206"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-27T17:30:23.769Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 9,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419699610855"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "49225"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549ef3c2975a8354869a2207"
+    },
+    "_class": "eu.trentorise.smartcampus.parcheggiausiliari.model.ParkingLog",
+    "author": "Guido",
+    "time": "2014-12-27T18:00:34.249Z",
+    "value": {
+      "_id": "parking@rovereto@1",
+      "slotsTotal": 100,
+      "slotsOccupiedOnTotal": 9,
+      "slotsUnavailable": 0,
+      "lastChange": {
+        "author": "Guido",
+        "time": {
+          "$numberLong": "1419701423769"
+        }
+      },
+      "agency": "rovereto",
+      "position": [
+        45.9006912652988,
+        11.03654197797902
+      ],
+      "name": "STADIO",
+      "updateTime": {
+        "$numberLong": "1414079018060"
+      },
+      "version": {
+        "$numberLong": "49226"
+      }
+    }
+  }
+]

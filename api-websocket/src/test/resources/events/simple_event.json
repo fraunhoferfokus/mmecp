@@ -1,0 +1,6 @@
+{
+  "useCaseID" : "BER ParkRide",
+  "context": {
+  	"select": "ParkingArea"
+  }
+}

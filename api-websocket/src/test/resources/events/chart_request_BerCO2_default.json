@@ -1,0 +1,7 @@
+{
+  "useCaseID": "CO2Emissions@Berlin",
+  "optionID" : "ber_traffic_rates_full",
+  "chartRequest": {
+    "type": "default"
+  }
+}

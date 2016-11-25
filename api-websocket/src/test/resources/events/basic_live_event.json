@@ -1,0 +1,10 @@
+{
+  "useCaseID" : "ParkAndRide@Tampere",
+  "live": "start",
+  "context": {
+  	"select": "ParkingArea",
+  	"where": {
+  		"type": ["free", "fee"]
+  	}
+  }
+}

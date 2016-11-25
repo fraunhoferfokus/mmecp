@@ -1,0 +1,9 @@
+{
+	"useCaseID" : "BER ParkRide",
+	"context": {
+	"select": "ParkingArea",
+		"where": {
+			"id": "Microzone_ABC"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "useCaseID" : "ParkAndRide@Rovereto",
+  "context": {
+  	"select": "ParkingArea",
+  	"where": {
+  		"type": ["free", "fee"]
+  	}
+  }
+}

@@ -1,0 +1,826 @@
+{
+  "defaults" : {
+    "city" : "BER",
+    "mapView" : {
+      "ROV" : {
+        "center" : { "type" : "GPS", "lat" : 45.890992, "lon" : 11.034196 },
+        "zoom" : 14
+      },
+        "BER" : {
+        "center" : { "type" : "GPS", "lat" : 52.516430, "lon" : 13.379191 },
+        "zoom" : 12
+      },
+      "TRE" : {
+        "center" : { "type" : "GPS", "lat" : 61.497945, "lon" : 23.763729 },
+        "zoom" : 14
+      }
+    }
+  },
+  "options" : [
+    {
+      "city" : "Rovereto",
+	  "cityShortForm" : "ROV",
+      "defaultUseCase" : "ParkAndRide@Rovereto",
+      "useCases" : {
+        "ParkAndRide@Rovereto" : {
+          "title" : "Rovereto park and ride",
+          "useCaseID" : "ParkAndRide@Rovereto",
+          "icon" : "parkandrideAtRovereto.png",
+          "description" : "In this scenario, parking station information from the park and ride stations in the Rovereto city area are shown on the city map. For each parking space, additional information can be accessed by selecting it.",
+          "defaultOption" : "parkandride:ParkingAreas",
+          "options" : [
+            {
+              "value" : "Parking areas",
+              "optionID" : "parkandride:ParkingAreas",
+              "description" : "Here, the major parking areas in the city are shown.",
+              "requestActivated" : {
+                "context" : {
+                  "select" : "ParkingArea",
+                  "where" : {
+                    "type" : [
+                      "macro"
+                    ]
+                  }
+                }
+              },
+              "subType" : "macro",
+              "requested" : false
+            },
+            {
+              "value" : "Parking stations type free",
+              "optionID" : "parkandride:ParkingStationsFree",
+              "description" : "Here, the parking lots with free parking option are shown.",
+              "requestActivated" : {
+                "context" : {
+                  "select" : "ParkingArea",
+                  "where" : {
+                    "type" : [
+                      "free"
+                    ]
+                  }
+                }
+              },
+              "subType" : "forfree",
+              "requested" : false
+            },
+            {
+              "value" : "Parking stations type fee",
+              "optionID" : "parkandride:ParkingStationsFee",
+              "description" : "Here, the paid parking lots in the city are shown.",
+              "requestActivated" : {
+                "context" : {
+                  "select" : "ParkingArea",
+                  "where" : {
+                    "type" : [
+                      "fee"
+                    ]
+                  }
+                }
+              },
+              "subType" : "fee",
+              "requested" : false
+            },
+            {
+              "value" : "Parking stations type clock",
+              "optionID" : "parkandride:ParkingStationsClock",
+              "description" : "Here, the parking lots with limited time parking are shown.",
+              "requestActivated" : {
+                "context" : {
+                  "select" : "ParkingArea",
+                  "where" : {
+                    "type" : [
+                      "clock"
+                    ]
+                  }
+                }
+              },
+              "subType" : "cardblock",
+              "requested" : false
+            },
+            {
+              "value" : "Extra parking lots",
+              "optionID" : "parkandridesim:ParkingStationsPlus",
+              "description" : "Here, the parking lots use with extra parking lots are shown.",
+              "requestActivated" : {
+                "live" : "start",
+                "context" : {
+                  "select" : "ParkingArea",
+                  "where" : {
+                    "type" : [
+                      "clock"
+                    ]
+                  }
+                }
+              },
+			  "requestDeactivated" : {
+			    "live" : "stop"
+			  },
+              "subType" : "extra_lots",
+              "requested" : false,
+			  "enabled" : true
+            },
+            {
+              "value" : "Event taking place",
+              "optionID" : "parkandridesim:BigEvent",
+              "description" : "Here, a huge event takes place in the city.",
+              "requestActivated" : {
+                "live" : "start",
+                "context" : {
+                  "select" : "ParkingArea",
+                  "where" : {
+                    "type" : [
+                      "clock"
+                    ]
+                  }
+                }
+              },
+			  "requestDeactivated" : {
+			    "live" : "stop"
+			  },
+              "subType" : "huge_event",
+              "requested" : false,
+			  "enabled" : false
+            },
+            {
+              "value" : "Extra parking lots and event",
+              "optionID" : "parkandridesim:ParkingStationsPlusEvent",
+              "description" : "Here, the parking lots use with extra parking lots are shown in case of a large event taking place in the city.",
+              "requestActivated" : {
+                "live" : "start",
+                "context" : {
+                  "select" : "ParkingArea",
+                  "where" : {
+                    "type" : [
+                      "clock"
+                    ]
+                  }
+                }
+              },
+			  "requestDeactivated" : {
+			    "live" : "stop"
+			  },
+              "subType" : "extra_lots+huge_event",
+              "requested" : false,
+			  "enabled" : false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "city" : "Tampere",
+	  "cityShortForm" : "TRE",
+      "defaultUseCase" : "ParkAndRide@Tampere",
+      "useCases" : {
+        "ParkAndRide@Tampere" : {
+          "title" : "Tampere park and ride",
+          "useCaseID" : "ParkAndRide@Tampere",
+          "icon" : "parkandrideAtTampere.png",
+          "description" : "This scenario displays the parking availability in the tampere city center.",
+          "defaultOption" : "parkandride:ParkingAreas",
+          "options" : [
+            {
+              "value" : "Parking lots (live)",
+              "optionID" : "parkandride:ParkingAreas",
+              "description" : "The parking availability is shown for each parking lot, including the current status and the trend of the availability. A green, \"up\" trend means that parking space becomes free. The information is updated in real-time while this option is active.",
+              "requestActivated" : {
+                "live" : "start",
+                "context" : {
+                  "select" : "ParkingArea"
+                }
+              },
+              "requestDeactivated" : {
+                "live" : "stop",
+                "context" : {
+                  "select" : "ParkingArea"
+                }
+              },
+              "subType" : "tre_park_live",
+              "requested" : false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "city" : "Berlin",
+	  "cityShortForm" : "BER",
+      "defaultUseCase" : "CO2Emissions@Berlin",
+      "useCases" : {
+        "CO2Emissions@Berlin" : {
+          "title" : "Berlin environmental stress",
+          "useCaseID" : "CO2Emissions@Berlin",
+          "icon" : "co2emission@berlin.png",
+          "description" : "In this scenario, different options are gathered that show aspects of the environmental and traffic situation in Berlin. They relate to traffic volume, emissions, and accidents in the city.",
+          "defaultOption" : "ber_tr_full",
+          "options" : [
+            {
+              "value" : "Traffic density",
+              "optionID" : "ber_traffic_rates_full",
+              "description" : "The map now shows historical traffic rates data from numerous measurement points throughout the city. Values denote average daily vehicles on each point, for work days.",
+		      "requestChart" : {
+                "chartRequest" : {
+                  "type" : "default"
+                }
+              },
+              "requestActivated" : {
+                "context" : {
+                  "select" : "Traffic rate",
+                  "where" : {
+                    "id" : "Berlin_full",
+                    "type" : [
+                      "VMZ_traffic_volume_points"
+                    ]
+                  }
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "subType" : "BER#TR",
+              "requested" : false,
+			  "enabled": true
+            },{
+              "value" : "Traffic density (live)",
+              "optionID" : "ber_traffic_rates_live",
+              "description" : "The map now updates incrementally with traffic rate data from numerous measurement points throughout the city. Values denote average daily vehicles on each point, for work days.",
+		      "requestChart" : {
+                "chartRequest" : {
+                  "type" : "default"
+                }
+              },
+              "requestActivated" : {
+			    "live" : "start",
+                "context" : {
+                  "select" : "Traffic rate",
+                  "where" : {
+                    "id" : "Berlin_full",
+                    "type" : [
+                      "VMZ_traffic_volume_points"
+                    ]
+                  }
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "requestDeactivated" : {
+			    "live" : "stop",
+                "context" : {
+                  "select" : "Traffic rate",
+                  "where" : {
+                    "id" : "Berlin_full",
+                    "type" : [
+                      "VMZ_traffic_volume_points"
+                    ]
+                  }
+                }
+              },
+              "subType" : "BER#TRL",
+              "requested" : false,
+			  "enabled": true
+            },{
+              "value" : "Traffic heatmap",
+              "optionID" : "ber_traffic_heatmap_full",
+              "description" : "The map now shows historical traffic rates data from numerous measurement points throughout the city as a heatmap overlay. Values on measured points denote average daily vehicles on each point, for work days.",
+		      "requestChart" : {
+                "chartRequest" : {
+                  "type" : "default"
+                }
+              },
+              "requestActivated" : {
+                "context" : {
+                  "select" : "Traffic heatmap",
+                  "where" : {
+                    "id" : "Berlin_full",
+                    "type" : [
+                      "VMZ_traffic_volume_points"
+                    ]
+                  }
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "subType" : "BER#TRH",
+              "requested" : false
+            },{
+              "value" : "Traffic heatmap (live)",
+              "optionID" : "ber_traffic_heatmap_live",
+              "description" : "The map now shows live traffic data from numerous measurement points throughout the city as a heatmap that develops over time. Values on measured points increase as the counted vehicles on each point accumulate.",
+		      "requestChart" : {
+                "chartRequest" : {
+                  "type" : "default"
+                }
+              },
+              "requestActivated" : {
+			    "live" : "start",
+                "context" : {
+                  "select" : "Traffic heatmap",
+                  "where" : {
+                    "id" : "Berlin_full",
+                    "type" : [
+                      "VMZ_traffic_volume_points"
+                    ]
+                  }
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "requestDeactivated" : {
+			    "live" : "stop",
+                "context" : {
+                  "select" : "Traffic heatmap",
+                  "where" : {
+                    "id" : "Berlin_full",
+                    "type" : [
+                      "VMZ_traffic_volume_points"
+                    ]
+                  }
+                }
+              },
+              "subType" : "BER#TRHL",
+              "requested" : false
+            }
+          ]
+        },
+        "ModalSplit@Berlin" : {
+          "title" : "Berlin events modal split",
+          "useCaseID" : "ModalSplit@Berlin",
+          "icon" : "piechart-stats.png",
+          "description" : "In this scenario, events are displayed and modal split predictions can be computed.",
+          "defaultOption" : "ber_ms_full",
+          "options" : [
+            {
+              "value" : "Events overview",
+              "optionID" : "ber_ms_full",
+              "description" : "This option shows upcoming events and event locations in Berlin.",
+              "requestActivated" : {
+                "context" : {
+                  "select" : "AllEvents",
+                  "where" : {}
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "subType" : "BER_MSS",
+              "requested" : false
+            },
+            {
+              "value" : "Event simulator",
+              "optionID" : "ber_ms_sim",
+              "description" : "This option allows to simulate attendeees and their modal split for events in Berlin.",
+              "requestActivated" : {
+                "context" : {
+                  "select" : "AllEvents",
+                  "where" : {}
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "subType" : "BER_SIM",
+              "requested" : false
+            },
+               {
+              "value" : "Bike Stations @ Event Day",
+              "optionID" : "ber_ms_bs",
+              "description" : "This option allows to forecast the availablitiy of bikes at the shared bikes stations for an event day",
+                 "dialogs" : {
+                   "datesQuery" : true,
+                   "onlyOneDay": true
+                 },
+
+                 "requestActivated" : {
+                "context" : {
+                  "select" : "AllEvents",
+                  "where" : {},
+                  "startDate" : "01-04-2016",
+                  "startWeekDay": "1"
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "subType" : "BER_SIM_BIKE",
+              "requested" : false
+            },
+            {
+              "value" : "All Bike Stations",
+              "optionID" : "ber_ms_bs_all",
+              "description" : "This options shows all bike stations in Berlin",
+
+              "requestActivated" : {
+                "context" : {
+                  "select" : "AllEvents",
+                  "where" : {},
+                  "startDate" : "01-04-2016",
+                  "startWeekDay": "1"
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "subType" : "BER_SIM_BIKE_ALL",
+              "requested" : false
+            }
+          ]
+        },
+        "BikeAccidents@Berlin" : {
+          "title" : "Berlin bike safety monitor",
+          "useCaseID" : "BikeAccidents@Berlin",
+          "icon" : "bikeaccidents@berlin.png",
+          "description" : "In this scenario, statistical data about accidents within the city limits are shown and compared to data that has been collected via the STREETLIFE BER routing app.",
+          "defaultOption" : "ber_acc_full_a1",
+          "requestChart" : {
+            "chartRequest" : {
+              "type" : "default"
+            }
+          },
+          "options" : [
+            {
+              "value" : "Trips (selected)",
+              "optionID" : "ber_bike_trips_selected",
+              "description" : "This option shows the selected routes, their transport mode, and the set of points in the city that have been tagged by bike riders as dangerous.",
+              "requestChart" : {
+				"chartRequest" : {
+					"type" : "default"
+                }
+              },
+              "dialogs" : {
+                "datesQuery" : true,
+                "onlyOneDay": false
+              },
+              "requestActivated" : {
+                "live" : "start",
+                "context" : {
+                  "select" : "all",
+                  "where" : {},
+                  "startDate" : "01-04-2016",
+                  "endDate" : "03-05-2016"
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "requestDeactivated" : {
+                "live" : "stop",
+                "context" : {
+                  "select" : "all",
+                  "where" : {}
+                }
+              },
+              "subType" : "BER_cs_sel",
+              "requested" : false,
+			  "enabled": false
+            }, {
+              "value" : "Trips planned via app",
+              "optionID" : "ber_bike_trips_detailed",
+              "description" : "This option shows the routes selected by StreetLife app users, their transport mode, and the set of points in the city that have been tagged by bike riders as dangerous.",
+              "requestChart" : {
+				"chartRequest" : {
+					"type" : "default"
+                }
+              },
+              "dialogs" : {
+                "datesQuery" : true,
+                "onlyOneDay": false
+              },
+              "requestActivated" : {
+                "live" : "start",
+                "context" : {
+                  "select" : "all",
+                  "where" : {},
+                  "startDate" : "01-04-2016",
+                  "endDate" : "03-05-2016"
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "requestDeactivated" : {
+                "live" : "stop",
+                "context" : {
+                  "select" : "all",
+                  "where" : {}
+                }
+              },
+              "subType" : "BER_cs_det",
+              "requested" : false
+            },
+			{
+              "value" : "Trips tracked by users",
+              "optionID" : "ber_bike_trips_tracked",
+              "description" : "This option shows the actually taken (tracked) user routes and the set of points in the city that have been tagged by bike riders as dangerous.",
+              "requestChart" : {
+				"chartRequest" : {
+					"type" : "default"
+                }
+              },
+              "dialogs" : {
+                "datesQuery" : true,
+                "onlyOneDay": false
+              },
+              "requestActivated" : {
+                "live" : "start",
+                "context" : {
+                  "select" : "all",
+                  "where" : {},
+                  "startDate" : "01-04-2016",
+                  "endDate" : "03-05-2016"
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "requestDeactivated" : {
+                "live" : "stop",
+                "context" : {
+                  "select" : "all",
+                  "where" : {}
+                }
+              },
+              "subType" : "BER_cs_tra",
+              "requested" : false
+            },
+			{
+              "value" : "Dangerous points by users",
+              "optionID" : "ber_bike_trips_dangerous",
+              "description" : "This option shows the set of points in the city that have been tagged as dangerous by users of the StreetLife app.",
+              "requestChart" : {
+				"chartRequest" : {
+					"type" : "default"
+                }
+              },
+              "dialogs" : {
+                "datesQuery" : true,
+                "onlyOneDay": false
+              },
+              "requestActivated" : {
+                "live" : "start",
+                "context" : {
+                  "select" : "all",
+                  "where" : {},
+                  "startDate" : "01-04-2016",
+                  "endDate" : "03-05-2016"
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "requestDeactivated" : {
+                "live" : "stop",
+                "context" : {
+                  "select" : "all",
+                  "where" : {}
+                }
+              },
+              "subType" : "BER_cs_danger",
+              "requested" : false
+            },
+            {
+              "value" : "All accidents (per street)",
+              "optionID" : "ber_acc_full_a1",
+              "description" : "All accident hot spots areas with humans affected, measured in between 2011 and 2013.",
+              "requestChart" : {
+				"chartRequest" : {
+					"type" : "default"
+                }
+              },
+              "requestActivated" : {
+                "context" : {
+                  "select" : "UHS_11_13_P",
+                  "where" : {}
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "subType" : "BER_A1_street",
+              "requested" : false
+            },
+            {
+              "value" : "All accidents (spots)",
+              "optionID" : "ber_acc_full_a2",
+              "description" : "All accident hot spots with humans affected, measured in between 2011 and 2013.",
+              "requestChart" : {
+				"chartRequest" : {
+					"type" : "default"
+                }
+              },
+              "requestActivated" : {
+                "context" : {
+                  "select" : "UHS_11_13_P_Kn",
+                  "where" : {}
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "subType" : "BER_A2",
+              "requested" : false
+            },
+            {
+              "value" : "Severe accidents (per street)",
+              "optionID" : "ber_acc_full_a3",
+              "description" : "Severe accident hot spots areas with humans affected, measured in between 2011 and 2013.",
+              "requestChart" : {
+				"chartRequest" : {
+					"type" : "default"
+                }
+              },
+              "requestActivated" : {
+                "context" : {
+                  "select" : "UHS_11_13_PS",
+                  "where" : {}
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "subType" : "BER_A3_severe_street",
+              "requested" : false
+            },
+            {
+              "value" : "Severe accidents (spots)",
+              "optionID" : "ber_acc_full_a4",
+              "description" : "Severe accident hot spots with humans affected, measured in between 2011 and 2013.",
+              "requestChart" : {
+				"chartRequest" : {
+					"type" : "default"
+                }
+              },
+              "requestActivated" : {
+                "context" : {
+                  "select" : "UHS_11_13_PS_Kn",
+                  "where" : {}
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "subType" : "BER_A4_severe",
+              "requested" : false
+            },
+            {
+              "value" : "//Severe bike accidents 2013 (spots)",
+              "optionID" : "ber_acc_full_a5",
+              "description" : "Severe accident hot spots with cyclists (alone or in interaction with other road users) affected, measured in 2013.",
+              "requestChart" : {
+				"chartRequest" : {
+					"type" : "default"
+                }
+              },
+              "requestActivated" : {
+                "context" : {
+                  "select" : "UHS_PS_Rad_Hotspot_13",
+                  "where" : {}
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "subType" : "BER_A5_severe",
+              "requested" : false,
+              "enabled" : false
+            },
+            {
+              "value" : "Severe bike accidents 2013 (per street)",
+              "optionID" : "ber_acc_full_a6",
+              "description" : "Severe accident hot spots areas with cyclists (alone or in interaction with other road users) affected, measured in 2013.",
+              "requestChart" : {
+				"chartRequest" : {
+					"type" : "default"
+                }
+              },
+              "requestActivated" : {
+                "context" : {
+                  "select" : "UHS_PS_Rad_13",
+                  "where" : {}
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "subType" : "BER_A6_severe_street",
+              "requested" : false
+            },
+            {
+              "value" : "Severe bike accidents 2013 (spots)",
+              "optionID" : "ber_acc_full_a7",
+              "description" : "Severe accident hot spots with cyclists (alone or in interaction with other road users) affected, measured in 2013.",
+              "requestChart" : {
+				"chartRequest" : {
+					"type" : "default"
+                }
+              },
+              "requestActivated" : {
+                "context" : {
+                  "select" : "UHS_PS_Rad_13_Kn",
+                  "where" : {}
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "subType" : "BER_A7_severe",
+              "requested" : false
+            },
+            {
+              "value" : "Severe bike / property accidents 2013 (spots)",
+              "optionID" : "ber_acc_full_a8",
+              "description" : "Severe accident hot spots with cyclists (alone or in interaction with other road users) affected or property damaged, measured in 2013.",
+              "requestChart" : {
+				"chartRequest" : {
+					"type" : "default"
+                }
+              },
+              "requestActivated" : {
+                "context" : {
+                  "select" : "UHS_PSS_Rad_Hotspot_13",
+                  "where" : {}
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "subType" : "BER_A8_severe",
+              "requested" : false
+            },
+            {
+              "value" : "//Bike accidents rate 2013",
+              "optionID" : "ber_acc_full_a9",
+              "description" : "###### Berlin accidents counters option #9 ######",
+              "requestChart" : {
+				"chartRequest" : {
+					"type" : "default"
+                }
+              },
+              "requestActivated" : {
+                "context" : {
+                  "select" : "UR_RadArt_13",
+                  "where" : {}
+                },
+                "filter" : [
+                  "aggregate=last_day",
+                  "time_band=all_day"
+                ]
+              },
+              "subType" : "BER_A9",
+              "requested" : false,
+              "enabled" : false
+            },
+            {
+              "value" : "Bike routes (unsafe)",
+              "optionID" : "ber_bike_route_us",
+              "subType" : "BER_bk_rt_us",
+              "requested" : false,
+              "description" : "In this option, the map shows a set of routes between selected trip endpoints, computed without considering accident hotspots.",
+              "requestActivated" : {
+                "context" : {
+                  "select" : "example#unsafe",
+                  "where" : {}
+                }
+              }
+            },
+            {
+              "value" : "Bike routes (safe)",
+              "optionID" : "ber_bike_route_sa",
+              "subType" : "BER_bk_rt_sa",
+              "requested" : false,
+              "description" : "In this option, the map shows a set of routes between selected trip endpoints, where the route computation is aware of accident hotspots and avoids these for newly planned bike trips.",
+              "requestActivated" : {
+                "context" : {
+                  "select" : "example#safe",
+                  "where" : {}
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

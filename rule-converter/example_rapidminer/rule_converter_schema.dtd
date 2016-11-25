@@ -1,0 +1,55 @@
+<!ELEMENT rc_schema (head, body)>
+<!ATTLIST rc_schema
+    rule_for (bestScore|allScores) "bestScore"
+    scoreDistribution_for (leaf|allNodes) #FIXED "leaf"
+>
+
+	<!-- text for metadata, added at the beginning of output file -->
+	<!ELEMENT head (#PCDATA)>
+
+	<!-- text which describes global things for rest of output file -->
+	<!ELEMENT body (mapText, nodeWrapper+)>
+    <!ATTLIST body
+        ph_nodeWrapper CDATA #REQUIRED
+    >
+        <!ELEMENT mapText (#PCDATA)>
+
+        <!-- text to summarize some nodes,
+             more then one possible,
+             are identified by custom type -->
+        <!ELEMENT nodeWrapper (mapText, node)>
+        <!ATTLIST nodeWrapper
+            model CDATA #REQUIRED
+            prefix_id CDATA #IMPLIED
+            ph_id CDATA #IMPLIED
+            ph_node CDATA #REQUIRED
+            ph_name CDATA #IMPLIED
+        >
+
+            <!ELEMENT node (mapText, predicate+, score?)>
+            <!ATTLIST node
+                ph_predicate CDATA #IMPLIED
+                ph_score CDATA #IMPLIED
+            >
+
+                <!-- text to map a single node,
+                     more then one possible,
+                     are identified by custom type:
+                         type - could be the same type like otype of mining field
+                         ph_field - placeholder for name of mining field, included in text
+                         ph_value - placeholder for value of mining field, included in text -->
+                <!ELEMENT predicate (mapText)>
+                <!ATTLIST predicate
+                    field CDATA #REQUIRED
+                    ph_field CDATA #IMPLIED
+                    ph_operator CDATA #IMPLIED
+                    ph_value CDATA #IMPLIED
+                >
+
+                <!ELEMENT score (mapText)>
+                <!ATTLIST score
+                    field CDATA #REQUIRED
+                    ph_field CDATA #IMPLIED
+                    ph_confidence CDATA #IMPLIED
+                    ph_value CDATA #IMPLIED
+                >

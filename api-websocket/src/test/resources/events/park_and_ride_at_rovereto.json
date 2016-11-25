@@ -1,0 +1,6 @@
+{
+  "useCaseID" : "ParkAndRide@Rovereto",
+  "context": {
+  	"select": "ParkingArea"
+  }
+}

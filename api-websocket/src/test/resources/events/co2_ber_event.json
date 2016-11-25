@@ -1,0 +1,14 @@
+{
+  "useCaseID" : "CO2Emissions@Berlin",
+  "context": {
+  	"select": "Traffic rate",
+  	"where": {
+  		"id": "Berlin_full",
+  		"type": ["VMZ_traffic_volume_points"]
+  	}
+  },
+  "filter": [
+      "aggregate=last_day",
+      "time_band=all_day"
+  ]
+}

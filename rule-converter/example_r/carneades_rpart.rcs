@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- description of document type -->
+<!DOCTYPE rc_schema SYSTEM "rule_converter_schema.dtd">
+
+<rc_schema rule_for="bestScore">
+
+	<body ph_nodeWrapper="%wrapper%">
+        <mapText>
+(defn isIn?
+    "true if seq contains elm"
+    [seq elm]
+    (some #(= elm %) seq))
+
+(defn isNotIn?
+    "true if seq not contains elm"
+    [seq elm]
+    (not (some #(= elm %) seq)))
+
+(def S [
+
+    %wrapper%
+
+])
+        </mapText>
+        <nodeWrapper model="Person Event Tree" prefix_id="has-mode-" ph_id="%id%" ph_node="%node%">
+            <mapText>
+    (make-scheme
+        :id '%id%
+        :conclusion '(has_mode ?E ?P ?M)
+        :premises [
+            (pm '(Event ?E))
+            (pm '(Person ?P))
+            (pm '(Mode ?M))
+            %node%
+        ]
+    )
+            </mapText>
+            <node ph_predicate="%pred%" ph_score="%score%">
+                <mapText>
+            (pm '(%pred%%score%))</mapText>
+
+                <predicate field="location" ph_field="%name%" ph_operator="%op%" ph_value="%value%">
+                    <mapText>%name% ?L ?E))
+            (pm '(eval ?L (if (%op%? '(%value%) ?L) ?L false)</mapText>
+                </predicate>
+                <predicate field="type" ph_field="%name%" ph_operator="%op%" ph_value="%value%">
+                    <mapText>%name% ?T ?E))
+            (pm '(eval ?T (if (%op%? '(%value%) ?T) ?T false)</mapText>
+                </predicate>
+                <predicate field="starttime" ph_field="%name%" ph_operator="%op%" ph_value="%value%">
+                    <mapText>%name% ?ST ?E))
+            (pm '(eval ?ST (let [t %value%] (if (%op% ?ST t) ?ST t))</mapText>
+                </predicate>
+                <predicate field="duration" ph_field="%name%" ph_operator="%op%" ph_value="%value%">
+                    <mapText>%name% ?DT ?E))
+            (pm '(eval ?DT (let [t %value%] (if (%op% ?DT t) ?DT t))</mapText>
+                </predicate>
+                <predicate field="startday" ph_field="%name%" ph_operator="%op%" ph_value="%value%">
+                    <mapText>%name% ?SD ?E))
+            (pm '(eval ?SD (let [d %value%] (if (%op% ?SD d) ?SD d))</mapText>
+                </predicate>
+                <predicate field="month" ph_field="%name%" ph_operator="%op%" ph_value="%value%">
+                    <mapText>%name% ?MD ?E))
+            (pm '(eval ?MD (let [d %value%] (if (%op% ?MD d) ?MD d))</mapText>
+                </predicate>
+                <predicate field="days" ph_field="%name%" ph_operator="%op%" ph_value="%value%">
+                    <mapText>%name% ?DD ?E))
+            (pm '(eval ?DD (let [d %value%] (if (%op% ?DD d) ?DD d))</mapText>
+                </predicate>
+
+                <predicate field="gender" ph_field="%name%" ph_operator="%op%" ph_value="%value%">
+                    <mapText>%name% ?G ?P))
+            (pm '(eval ?G (if (%op%? '(%value%) ?G) ?G false)</mapText>
+                </predicate>
+                <predicate field="occupation" ph_field="%name%" ph_operator="%op%" ph_value="%value%">
+                    <mapText>%name% ?O ?P))
+            (pm '(eval ?O (if (%op%? '(%value%) ?O) ?O false)</mapText>
+                </predicate>
+                <predicate field="marital" ph_field="%name%" ph_operator="%op%" ph_value="%value%">
+                    <mapText>%name% ?MA ?P))
+            (pm '(eval ?MA (if (%op%? '(%value%) ?MA) ?MA false)</mapText>
+                </predicate>
+                <predicate field="age" ph_field="%name%" ph_operator="%op%" ph_value="%value%">
+                    <mapText>%name% ?A ?P))
+            (pm '(eval ?A (let [a %value%] (if (%op% ?A a) ?A a))</mapText>
+                </predicate>
+
+                <score field="mode" ph_field="%name%" ph_value="%value%">
+                    <mapText>%name% "%value%" ?M</mapText>
+                </score>
+            </node>
+        </nodeWrapper>
+
+	</body>
+
+</rc_schema>

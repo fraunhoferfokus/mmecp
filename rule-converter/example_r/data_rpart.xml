@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<PMML version="4.2" xmlns="http://www.dmg.org/PMML-4_2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dmg.org/PMML-4_2 http://www.dmg.org/v4-2/pmml-4-2.xsd">
+ <Header copyright="Copyright (c) 2014 bke" description="RPart Decision Tree Model">
+  <Extension name="user" value="bke" extender="Rattle/PMML"/>
+  <Application name="Rattle/PMML" version="1.4"/>
+  <Timestamp>2014-09-07 09:47:23</Timestamp>
+ </Header>
+ <DataDictionary numberOfFields="12">
+  <DataField name="mode" optype="categorical" dataType="string">
+   <Value value="bike"/>
+   <Value value="car"/>
+   <Value value="public"/>
+   <Value value="walk"/>
+  </DataField>
+  <DataField name="month" optype="continuous" dataType="double">
+   <Interval closure="closedClosed" leftMargin="7" rightMargin="11"/>
+  </DataField>
+  <DataField name="gender" optype="categorical" dataType="string">
+   <Value value="female"/>
+   <Value value="male"/>
+  </DataField>
+  <DataField name="age" optype="continuous" dataType="double">
+   <Interval closure="closedClosed" leftMargin="15" rightMargin="79"/>
+  </DataField>
+  <DataField name="days" optype="continuous" dataType="double">
+   <Interval closure="closedClosed" leftMargin="0" rightMargin="14"/>
+  </DataField>
+  <DataField name="location" optype="categorical" dataType="string">
+   <Value value="o2"/>
+   <Value value="thf"/>
+  </DataField>
+  <DataField name="starttime" optype="continuous" dataType="double">
+   <Interval closure="closedClosed" leftMargin="0" rightMargin="1320"/>
+  </DataField>
+  <DataField name="duration" optype="continuous" dataType="double">
+   <Interval closure="closedClosed" leftMargin="0" rightMargin="600"/>
+  </DataField>
+  <DataField name="marital" optype="categorical" dataType="string">
+   <Value value="divorced"/>
+   <Value value="married"/>
+   <Value value="single"/>
+   <Value value="widowed"/>
+  </DataField>
+  <DataField name="type" optype="categorical" dataType="string">
+   <Value value="concert"/>
+   <Value value="culture"/>
+   <Value value="exhibition"/>
+   <Value value="mixed"/>
+   <Value value="sport"/>
+  </DataField>
+  <DataField name="startday" optype="continuous" dataType="double">
+   <Interval closure="closedClosed" leftMargin="1" rightMargin="7"/>
+  </DataField>
+  <DataField name="occupation" optype="categorical" dataType="string">
+   <Value value="employee"/>
+   <Value value="pensioner"/>
+   <Value value="student"/>
+   <Value value="unemployed"/>
+  </DataField>
+ </DataDictionary>
+ <TreeModel modelName="Person Event Tree" functionName="classification" algorithmName="rpart" splitCharacteristic="binarySplit" missingValueStrategy="defaultChild">
+  <MiningSchema>
+   <MiningField name="mode" usageType="predicted"/>
+   <MiningField name="month" usageType="active"/>
+   <MiningField name="gender" usageType="active"/>
+   <MiningField name="age" usageType="active"/>
+   <MiningField name="days" usageType="active"/>
+   <MiningField name="location" usageType="active"/>
+   <MiningField name="starttime" usageType="active"/>
+   <MiningField name="duration" usageType="active"/>
+   <MiningField name="marital" usageType="active"/>
+   <MiningField name="type" usageType="active"/>
+   <MiningField name="startday" usageType="active"/>
+   <MiningField name="occupation" usageType="active"/>
+  </MiningSchema>
+  <Output>
+   <OutputField name="Predicted_mode" optype="categorical" dataType="string" feature="predictedValue"/>
+   <OutputField name="Probability_bike" optype="continuous" dataType="double" feature="probability" value="bike"/>
+   <OutputField name="Probability_car" optype="continuous" dataType="double" feature="probability" value="car"/>
+   <OutputField name="Probability_public" optype="continuous" dataType="double" feature="probability" value="public"/>
+   <OutputField name="Probability_walk" optype="continuous" dataType="double" feature="probability" value="walk"/>
+  </Output>
+  <Node id="1" score="public" recordCount="1141" defaultChild="2">
+   <True/>
+   <ScoreDistribution value="bike" recordCount="190" confidence="0.166520595968449"/>
+   <ScoreDistribution value="car" recordCount="288" confidence="0.252410166520596"/>
+   <ScoreDistribution value="public" recordCount="431" confidence="0.377738825591586"/>
+   <ScoreDistribution value="walk" recordCount="232" confidence="0.203330411919369"/>
+   <Node id="2" score="car" recordCount="914" defaultChild="4">
+    <SimpleSetPredicate field="occupation" booleanOperator="isIn">
+     <Array n="3" type="string">&quot;employee&quot; &quot;student&quot; &quot;unemployed&quot;</Array>
+    </SimpleSetPredicate>
+    <ScoreDistribution value="bike" recordCount="190" confidence="0.207877461706783"/>
+    <ScoreDistribution value="car" recordCount="288" confidence="0.315098468271335"/>
+    <ScoreDistribution value="public" recordCount="283" confidence="0.309628008752735"/>
+    <ScoreDistribution value="walk" recordCount="153" confidence="0.167396061269147"/>
+    <Node id="4" score="public" recordCount="342" defaultChild="8">
+     <SimplePredicate field="month" operator="lessThan" value="9"/>
+     <ScoreDistribution value="bike" recordCount="87" confidence="0.254385964912281"/>
+     <ScoreDistribution value="car" recordCount="126" confidence="0.368421052631579"/>
+     <ScoreDistribution value="public" recordCount="129" confidence="0.37719298245614"/>
+     <ScoreDistribution value="walk" recordCount="0" confidence="0"/>
+     <Node id="8" score="public" recordCount="206" defaultChild="16">
+      <SimplePredicate field="age" operator="lessThan" value="42.5"/>
+      <ScoreDistribution value="bike" recordCount="71" confidence="0.344660194174757"/>
+      <ScoreDistribution value="car" recordCount="58" confidence="0.281553398058252"/>
+      <ScoreDistribution value="public" recordCount="77" confidence="0.37378640776699"/>
+      <ScoreDistribution value="walk" recordCount="0" confidence="0"/>
+      <Node id="16" score="bike" recordCount="20">
+       <SimplePredicate field="age" operator="lessThan" value="17.5"/>
+       <ScoreDistribution value="bike" recordCount="11" confidence="0.55"/>
+       <ScoreDistribution value="car" recordCount="0" confidence="0"/>
+       <ScoreDistribution value="public" recordCount="9" confidence="0.45"/>
+       <ScoreDistribution value="walk" recordCount="0" confidence="0"/>
+      </Node>
+      <Node id="17" score="public" recordCount="186" defaultChild="34">
+       <SimplePredicate field="age" operator="greaterOrEqual" value="17.5"/>
+       <ScoreDistribution value="bike" recordCount="60" confidence="0.32258064516129"/>
+       <ScoreDistribution value="car" recordCount="58" confidence="0.311827956989247"/>
+       <ScoreDistribution value="public" recordCount="68" confidence="0.365591397849462"/>
+       <ScoreDistribution value="walk" recordCount="0" confidence="0"/>
+       <Node id="34" score="bike" recordCount="95" defaultChild="68">
+        <SimpleSetPredicate field="gender" booleanOperator="isIn">
+         <Array n="1" type="string">&quot;male&quot;</Array>
+        </SimpleSetPredicate>
+        <ScoreDistribution value="bike" recordCount="35" confidence="0.368421052631579"/>
+        <ScoreDistribution value="car" recordCount="33" confidence="0.347368421052632"/>
+        <ScoreDistribution value="public" recordCount="27" confidence="0.284210526315789"/>
+        <ScoreDistribution value="walk" recordCount="0" confidence="0"/>
+        <Node id="68" score="bike" recordCount="64">
+         <SimpleSetPredicate field="occupation" booleanOperator="isIn">
+          <Array n="2" type="string">&quot;employee&quot; &quot;student&quot;</Array>
+         </SimpleSetPredicate>
+         <ScoreDistribution value="bike" recordCount="26" confidence="0.40625"/>
+         <ScoreDistribution value="car" recordCount="19" confidence="0.296875"/>
+         <ScoreDistribution value="public" recordCount="19" confidence="0.296875"/>
+         <ScoreDistribution value="walk" recordCount="0" confidence="0"/>
+        </Node>
+        <Node id="69" score="car" recordCount="31">
+         <SimpleSetPredicate field="occupation" booleanOperator="isIn">
+          <Array n="1" type="string">&quot;unemployed&quot;</Array>
+         </SimpleSetPredicate>
+         <ScoreDistribution value="bike" recordCount="9" confidence="0.290322580645161"/>
+         <ScoreDistribution value="car" recordCount="14" confidence="0.451612903225806"/>
+         <ScoreDistribution value="public" recordCount="8" confidence="0.258064516129032"/>
+         <ScoreDistribution value="walk" recordCount="0" confidence="0"/>
+        </Node>
+       </Node>
+       <Node id="35" score="public" recordCount="91">
+        <SimpleSetPredicate field="gender" booleanOperator="isIn">
+         <Array n="1" type="string">&quot;female&quot;</Array>
+        </SimpleSetPredicate>
+        <ScoreDistribution value="bike" recordCount="25" confidence="0.274725274725275"/>
+        <ScoreDistribution value="car" recordCount="25" confidence="0.274725274725275"/>
+        <ScoreDistribution value="public" recordCount="41" confidence="0.450549450549451"/>
+        <ScoreDistribution value="walk" recordCount="0" confidence="0"/>
+       </Node>
+      </Node>
+     </Node>
+     <Node id="9" score="car" recordCount="136">
+      <SimplePredicate field="age" operator="greaterOrEqual" value="42.5"/>
+      <ScoreDistribution value="bike" recordCount="16" confidence="0.117647058823529"/>
+      <ScoreDistribution value="car" recordCount="68" confidence="0.5"/>
+      <ScoreDistribution value="public" recordCount="52" confidence="0.382352941176471"/>
+      <ScoreDistribution value="walk" recordCount="0" confidence="0"/>
+     </Node>
+    </Node>
+    <Node id="5" score="car" recordCount="572" defaultChild="10">
+     <SimplePredicate field="month" operator="greaterOrEqual" value="9"/>
+     <ScoreDistribution value="bike" recordCount="103" confidence="0.18006993006993"/>
+     <ScoreDistribution value="car" recordCount="162" confidence="0.283216783216783"/>
+     <ScoreDistribution value="public" recordCount="154" confidence="0.269230769230769"/>
+     <ScoreDistribution value="walk" recordCount="153" confidence="0.267482517482518"/>
+     <Node id="10" score="public" recordCount="316" defaultChild="20">
+      <SimplePredicate field="age" operator="lessThan" value="40.5"/>
+      <ScoreDistribution value="bike" recordCount="81" confidence="0.256329113924051"/>
+      <ScoreDistribution value="car" recordCount="72" confidence="0.227848101265823"/>
+      <ScoreDistribution value="public" recordCount="89" confidence="0.281645569620253"/>
+      <ScoreDistribution value="walk" recordCount="74" confidence="0.234177215189873"/>
+      <Node id="20" score="public" recordCount="298" defaultChild="40">
+       <SimplePredicate field="age" operator="greaterOrEqual" value="17.5"/>
+       <ScoreDistribution value="bike" recordCount="76" confidence="0.25503355704698"/>
+       <ScoreDistribution value="car" recordCount="72" confidence="0.241610738255034"/>
+       <ScoreDistribution value="public" recordCount="85" confidence="0.285234899328859"/>
+       <ScoreDistribution value="walk" recordCount="65" confidence="0.218120805369128"/>
+       <Node id="40" score="bike" recordCount="237" defaultChild="80">
+        <SimpleSetPredicate field="marital" booleanOperator="isIn">
+         <Array n="1" type="string">&quot;single&quot;</Array>
+        </SimpleSetPredicate>
+        <ScoreDistribution value="bike" recordCount="65" confidence="0.274261603375527"/>
+        <ScoreDistribution value="car" recordCount="63" confidence="0.265822784810127"/>
+        <ScoreDistribution value="public" recordCount="61" confidence="0.257383966244726"/>
+        <ScoreDistribution value="walk" recordCount="48" confidence="0.20253164556962"/>
+        <Node id="80" score="car" recordCount="22">
+         <SimplePredicate field="starttime" operator="lessThan" value="922.5"/>
+         <ScoreDistribution value="bike" recordCount="6" confidence="0.272727272727273"/>
+         <ScoreDistribution value="car" recordCount="9" confidence="0.409090909090909"/>
+         <ScoreDistribution value="public" recordCount="1" confidence="0.0454545454545455"/>
+         <ScoreDistribution value="walk" recordCount="6" confidence="0.272727272727273"/>
+        </Node>
+        <Node id="81" score="public" recordCount="215" defaultChild="162">
+         <SimplePredicate field="starttime" operator="greaterOrEqual" value="922.5"/>
+         <ScoreDistribution value="bike" recordCount="59" confidence="0.274418604651163"/>
+         <ScoreDistribution value="car" recordCount="54" confidence="0.251162790697674"/>
+         <ScoreDistribution value="public" recordCount="60" confidence="0.27906976744186"/>
+         <ScoreDistribution value="walk" recordCount="42" confidence="0.195348837209302"/>
+         <Node id="162" score="bike" recordCount="88">
+          <SimplePredicate field="month" operator="lessThan" value="10.5"/>
+          <ScoreDistribution value="bike" recordCount="31" confidence="0.352272727272727"/>
+          <ScoreDistribution value="car" recordCount="23" confidence="0.261363636363636"/>
+          <ScoreDistribution value="public" recordCount="22" confidence="0.25"/>
+          <ScoreDistribution value="walk" recordCount="12" confidence="0.136363636363636"/>
+         </Node>
+         <Node id="163" score="public" recordCount="127">
+          <SimplePredicate field="month" operator="greaterOrEqual" value="10.5"/>
+          <ScoreDistribution value="bike" recordCount="28" confidence="0.220472440944882"/>
+          <ScoreDistribution value="car" recordCount="31" confidence="0.244094488188976"/>
+          <ScoreDistribution value="public" recordCount="38" confidence="0.299212598425197"/>
+          <ScoreDistribution value="walk" recordCount="30" confidence="0.236220472440945"/>
+         </Node>
+        </Node>
+       </Node>
+       <Node id="41" score="public" recordCount="61">
+        <SimpleSetPredicate field="marital" booleanOperator="isIn">
+         <Array n="2" type="string">&quot;divorced&quot; &quot;married&quot;</Array>
+        </SimpleSetPredicate>
+        <ScoreDistribution value="bike" recordCount="11" confidence="0.180327868852459"/>
+        <ScoreDistribution value="car" recordCount="9" confidence="0.147540983606557"/>
+        <ScoreDistribution value="public" recordCount="24" confidence="0.39344262295082"/>
+        <ScoreDistribution value="walk" recordCount="17" confidence="0.278688524590164"/>
+       </Node>
+      </Node>
+      <Node id="21" score="walk" recordCount="18">
+       <SimplePredicate field="age" operator="lessThan" value="17.5"/>
+       <ScoreDistribution value="bike" recordCount="5" confidence="0.277777777777778"/>
+       <ScoreDistribution value="car" recordCount="0" confidence="0"/>
+       <ScoreDistribution value="public" recordCount="4" confidence="0.222222222222222"/>
+       <ScoreDistribution value="walk" recordCount="9" confidence="0.5"/>
+      </Node>
+     </Node>
+     <Node id="11" score="car" recordCount="256" defaultChild="22">
+      <SimplePredicate field="age" operator="greaterOrEqual" value="40.5"/>
+      <ScoreDistribution value="bike" recordCount="22" confidence="0.0859375"/>
+      <ScoreDistribution value="car" recordCount="90" confidence="0.3515625"/>
+      <ScoreDistribution value="public" recordCount="65" confidence="0.25390625"/>
+      <ScoreDistribution value="walk" recordCount="79" confidence="0.30859375"/>
+      <Node id="22" score="car" recordCount="132">
+       <SimpleSetPredicate field="marital" booleanOperator="isIn">
+        <Array n="3" type="string">&quot;divorced&quot; &quot;single&quot; &quot;widowed&quot;</Array>
+       </SimpleSetPredicate>
+       <ScoreDistribution value="bike" recordCount="22" confidence="0.166666666666667"/>
+       <ScoreDistribution value="car" recordCount="46" confidence="0.348484848484848"/>
+       <ScoreDistribution value="public" recordCount="25" confidence="0.189393939393939"/>
+       <ScoreDistribution value="walk" recordCount="39" confidence="0.295454545454545"/>
+      </Node>
+      <Node id="23" score="car" recordCount="124" defaultChild="46">
+       <SimpleSetPredicate field="marital" booleanOperator="isIn">
+        <Array n="1" type="string">&quot;married&quot;</Array>
+       </SimpleSetPredicate>
+       <ScoreDistribution value="bike" recordCount="0" confidence="0"/>
+       <ScoreDistribution value="car" recordCount="44" confidence="0.354838709677419"/>
+       <ScoreDistribution value="public" recordCount="40" confidence="0.32258064516129"/>
+       <ScoreDistribution value="walk" recordCount="40" confidence="0.32258064516129"/>
+       <Node id="46" score="car" recordCount="108" defaultChild="92">
+        <SimpleSetPredicate field="type" booleanOperator="isIn">
+         <Array n="1" type="string">&quot;concert&quot;</Array>
+        </SimpleSetPredicate>
+        <ScoreDistribution value="bike" recordCount="0" confidence="0"/>
+        <ScoreDistribution value="car" recordCount="43" confidence="0.398148148148148"/>
+        <ScoreDistribution value="public" recordCount="36" confidence="0.333333333333333"/>
+        <ScoreDistribution value="walk" recordCount="29" confidence="0.268518518518519"/>
+        <Node id="92" score="car" recordCount="41">
+         <SimplePredicate field="age" operator="lessThan" value="50.5"/>
+         <ScoreDistribution value="bike" recordCount="0" confidence="0"/>
+         <ScoreDistribution value="car" recordCount="22" confidence="0.536585365853658"/>
+         <ScoreDistribution value="public" recordCount="9" confidence="0.219512195121951"/>
+         <ScoreDistribution value="walk" recordCount="10" confidence="0.24390243902439"/>
+        </Node>
+        <Node id="93" score="public" recordCount="67" defaultChild="186">
+         <SimplePredicate field="age" operator="greaterOrEqual" value="50.5"/>
+         <ScoreDistribution value="bike" recordCount="0" confidence="0"/>
+         <ScoreDistribution value="car" recordCount="21" confidence="0.313432835820895"/>
+         <ScoreDistribution value="public" recordCount="27" confidence="0.402985074626866"/>
+         <ScoreDistribution value="walk" recordCount="19" confidence="0.283582089552239"/>
+         <Node id="186" score="public" recordCount="42">
+          <SimplePredicate field="month" operator="greaterOrEqual" value="10.5"/>
+          <ScoreDistribution value="bike" recordCount="0" confidence="0"/>
+          <ScoreDistribution value="car" recordCount="13" confidence="0.309523809523809"/>
+          <ScoreDistribution value="public" recordCount="21" confidence="0.5"/>
+          <ScoreDistribution value="walk" recordCount="8" confidence="0.19047619047619"/>
+         </Node>
+         <Node id="187" score="walk" recordCount="25">
+          <SimplePredicate field="month" operator="lessThan" value="10.5"/>
+          <ScoreDistribution value="bike" recordCount="0" confidence="0"/>
+          <ScoreDistribution value="car" recordCount="8" confidence="0.32"/>
+          <ScoreDistribution value="public" recordCount="6" confidence="0.24"/>
+          <ScoreDistribution value="walk" recordCount="11" confidence="0.44"/>
+         </Node>
+        </Node>
+       </Node>
+       <Node id="47" score="walk" recordCount="16">
+        <SimpleSetPredicate field="type" booleanOperator="isIn">
+         <Array n="1" type="string">&quot;sport&quot;</Array>
+        </SimpleSetPredicate>
+        <ScoreDistribution value="bike" recordCount="0" confidence="0"/>
+        <ScoreDistribution value="car" recordCount="1" confidence="0.0625"/>
+        <ScoreDistribution value="public" recordCount="4" confidence="0.25"/>
+        <ScoreDistribution value="walk" recordCount="11" confidence="0.6875"/>
+       </Node>
+      </Node>
+     </Node>
+    </Node>
+   </Node>
+   <Node id="3" score="public" recordCount="227" defaultChild="6">
+    <SimpleSetPredicate field="occupation" booleanOperator="isIn">
+     <Array n="1" type="string">&quot;pensioner&quot;</Array>
+    </SimpleSetPredicate>
+    <ScoreDistribution value="bike" recordCount="0" confidence="0"/>
+    <ScoreDistribution value="car" recordCount="0" confidence="0"/>
+    <ScoreDistribution value="public" recordCount="148" confidence="0.651982378854626"/>
+    <ScoreDistribution value="walk" recordCount="79" confidence="0.348017621145374"/>
+    <Node id="6" score="public" recordCount="78">
+     <SimplePredicate field="month" operator="lessThan" value="9"/>
+     <ScoreDistribution value="bike" recordCount="0" confidence="0"/>
+     <ScoreDistribution value="car" recordCount="0" confidence="0"/>
+     <ScoreDistribution value="public" recordCount="78" confidence="1"/>
+     <ScoreDistribution value="walk" recordCount="0" confidence="0"/>
+    </Node>
+    <Node id="7" score="walk" recordCount="149">
+     <SimplePredicate field="month" operator="greaterOrEqual" value="9"/>
+     <ScoreDistribution value="bike" recordCount="0" confidence="0"/>
+     <ScoreDistribution value="car" recordCount="0" confidence="0"/>
+     <ScoreDistribution value="public" recordCount="70" confidence="0.469798657718121"/>
+     <ScoreDistribution value="walk" recordCount="79" confidence="0.530201342281879"/>
+    </Node>
+   </Node>
+  </Node>
+ </TreeModel>
+</PMML>

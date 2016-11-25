@@ -1,0 +1,29 @@
+[
+  {
+    "time": "2015-07-15T16:44:16+03:00",
+    "trend": "stable",
+    "status": "spacesAvailable",
+    "code": "FNPK.11",
+    "name1": "P-Plevna",
+    "y": "6825825",
+    "x": "3327571"
+  },
+  {
+    "time": "2015-07-15T16:44:16+03:00",
+    "trend": "increasing",
+    "status": "spacesAvailable",
+    "code": "FNPK.13",
+    "name1": "P-Duo",
+    "y": "6819924",
+    "x": "3332289"
+  },
+  {
+    "time": "2015-07-15T16:44:16+03:00",
+    "trend": "increasing",
+    "status": "spacesAvailable",
+    "code": "FNPK.12",
+    "name1": "P-Tullintori",
+    "y": "6825253",
+    "x": "3328535"
+  }
+]

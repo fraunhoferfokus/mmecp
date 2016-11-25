@@ -1,0 +1,1955 @@
+[
+  {
+    "type": "mapobject", 
+    "objectID": "Benacense _ 03", 
+    "objectType": "ParkingStation", 
+    "objectSubtype": "cardblock", 
+    "description": "Parkingslot", 
+    "location": {
+      "type": "Point", 
+      "coordinates": [
+        11.040455941110013, 
+        45.88344026027639
+      ]
+    }, 
+    "elements": [
+      {
+        "attribute": {
+          "label": "Microzone", 
+          "value": "Benacense _ 03"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Macrozone", 
+          "value": "[6] _ S. MARIA _ B"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fee zone", 
+          "value": "Arancio"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fare per hour", 
+          "value": 0.4
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with cardblock clock", 
+          "value": 4
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots without stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with parking fee", 
+          "value": 24
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots reserved", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots for people with disabilities", 
+          "value": 1
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots fur taxis", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots not reserved", 
+          "value": 28
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Total number of slots", 
+          "value": 30
+        }
+      }, 
+      {
+        "maparea": {
+          "area": {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  11.040455941110013, 
+                  45.88344026027639
+                ], 
+                [
+                  11.040528336939506, 
+                  45.88338249788134
+                ], 
+                [
+                  11.03938264765349, 
+                  45.88264093097524
+                ], 
+                [
+                  11.039298938616419, 
+                  45.88269630588528
+                ], 
+                [
+                  11.039682454947508, 
+                  45.88294844753705
+                ], 
+                [
+                  11.03986858238624, 
+                  45.883071172250624
+                ], 
+                [
+                  11.04002123126511, 
+                  45.88317158631028
+                ], 
+                [
+                  11.040199936316071, 
+                  45.88328892466778
+                ], 
+                [
+                  11.040455941110013, 
+                  45.88344026027639
+                ]
+              ]
+            ]
+          }, 
+          "color": {
+            "red": 125, 
+            "green": 125, 
+            "blue": 125, 
+            "alpha": 0.5
+          }
+        }
+      }
+    ]
+  }, 
+  {
+    "type": "mapobject", 
+    "objectID": "Campagnole _ 01", 
+    "objectType": "ParkingStation", 
+    "objectSubtype": "cardblock", 
+    "description": "Parkingslot", 
+    "location": {
+      "type": "Point", 
+      "coordinates": [
+        11.036858442088041, 
+        45.88935907635141
+      ]
+    }, 
+    "elements": [
+      {
+        "attribute": {
+          "label": "Microzone", 
+          "value": "Campagnole _ 01"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Macrozone", 
+          "value": "[5] _ S. CATERINA _ A"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fee zone", 
+          "value": "Gialla"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fare per hour", 
+          "value": 0.5
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with cardblock clock", 
+          "value": 6
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots without stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with parking fee", 
+          "value": 49
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots reserved", 
+          "value": 8
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots for people with disabilities", 
+          "value": 2
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots fur taxis", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots not reserved", 
+          "value": 55
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Total number of slots", 
+          "value": 66
+        }
+      }, 
+      {
+        "maparea": {
+          "area": {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  11.036858442088041, 
+                  45.88935907635141
+                ], 
+                [
+                  11.036876958036776, 
+                  45.88936529593218
+                ], 
+                [
+                  11.0368696717082, 
+                  45.88937671936752
+                ], 
+                [
+                  11.036847353978686, 
+                  45.88940789904381
+                ], 
+                [
+                  11.036805450205913, 
+                  45.8894674195201
+                ], 
+                [
+                  11.036879046444573, 
+                  45.88949211887581
+                ], 
+                [
+                  11.03689361782162, 
+                  45.889471157886796
+                ], 
+                [
+                  11.037125704053995, 
+                  45.88954935276224
+                ], 
+                [
+                  11.037162947826733, 
+                  45.88946986578685
+                ], 
+                [
+                  11.037167747516868, 
+                  45.88945895930162
+                ], 
+                [
+                  11.037197543650608, 
+                  45.88946780879534
+                ], 
+                [
+                  11.037205779469046, 
+                  45.88946956683239
+                ], 
+                [
+                  11.037726163312513, 
+                  45.88958064774127
+                ], 
+                [
+                  11.037912517982043, 
+                  45.88962042623849
+                ], 
+                [
+                  11.037940353691035, 
+                  45.88962636790259
+                ], 
+                [
+                  11.03808283291645, 
+                  45.88965678064214
+                ], 
+                [
+                  11.03813509812193, 
+                  45.88958105392506
+                ], 
+                [
+                  11.038103376880828, 
+                  45.88957360937428
+                ], 
+                [
+                  11.03800670374441, 
+                  45.88955229265259
+                ], 
+                [
+                  11.037964998049882, 
+                  45.88954353564823
+                ], 
+                [
+                  11.037893240134604, 
+                  45.88952846849371
+                ], 
+                [
+                  11.03749625070046, 
+                  45.8894451108505
+                ], 
+                [
+                  11.037489345781925, 
+                  45.88944366541697
+                ], 
+                [
+                  11.037245057297008, 
+                  45.88939252723536
+                ], 
+                [
+                  11.037176443879247, 
+                  45.889373679604475
+                ], 
+                [
+                  11.037159514143447, 
+                  45.889367842205246
+                ], 
+                [
+                  11.03710595542334, 
+                  45.8893493750505
+                ], 
+                [
+                  11.036775912024284, 
+                  45.88924072279177
+                ], 
+                [
+                  11.036651307836161, 
+                  45.889199701986406
+                ], 
+                [
+                  11.036582345172267, 
+                  45.88917834007923
+                ], 
+                [
+                  11.036548531181262, 
+                  45.88916652214893
+                ], 
+                [
+                  11.036522319926647, 
+                  45.88915465868674
+                ], 
+                [
+                  11.036505160553437, 
+                  45.889147134119504
+                ], 
+                [
+                  11.036484698888087, 
+                  45.889137418286126
+                ], 
+                [
+                  11.0363989069332, 
+                  45.88909391789102
+                ], 
+                [
+                  11.036268229085293, 
+                  45.88902765806297
+                ], 
+                [
+                  11.036152123594333, 
+                  45.888968786845055
+                ], 
+                [
+                  11.036142081201564, 
+                  45.888963694844406
+                ], 
+                [
+                  11.036093985786911, 
+                  45.88893845052496
+                ], 
+                [
+                  11.036015986929401, 
+                  45.88899780396288
+                ], 
+                [
+                  11.036417174812104, 
+                  45.889201371628445
+                ], 
+                [
+                  11.036419543269036, 
+                  45.88920257340387
+                ], 
+                [
+                  11.036464750048914, 
+                  45.889222828786984
+                ], 
+                [
+                  11.036507311730261, 
+                  45.88924124119479
+                ], 
+                [
+                  11.036531981232326, 
+                  45.88924971194695
+                ], 
+                [
+                  11.036575164529086, 
+                  45.889263973009996
+                ], 
+                [
+                  11.036636884665057, 
+                  45.8892846539884
+                ], 
+                [
+                  11.036858442088041, 
+                  45.88935907635141
+                ]
+              ]
+            ]
+          }, 
+          "color": {
+            "red": 125, 
+            "green": 125, 
+            "blue": 125, 
+            "alpha": 0.5
+          }
+        }
+      }
+    ]
+  }, 
+  {
+    "type": "mapobject", 
+    "objectID": "Paoli _ 01", 
+    "objectType": "ParkingStation", 
+    "objectSubtype": "cardblock", 
+    "description": "Parkingslot", 
+    "location": {
+      "type": "Point", 
+      "coordinates": [
+        11.04006193547361, 
+        45.89344749832161
+      ]
+    }, 
+    "elements": [
+      {
+        "attribute": {
+          "label": "Microzone", 
+          "value": "Paoli _ 01"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Macrozone", 
+          "value": "[3] _ MANZONI _ B"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fee zone", 
+          "value": "Gialla"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fare per hour", 
+          "value": 0.5
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with cardblock clock", 
+          "value": 7
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots without stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with parking fee", 
+          "value": 11
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots reserved", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots for people with disabilities", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots fur taxis", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots not reserved", 
+          "value": 18
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Total number of slots", 
+          "value": 18
+        }
+      }, 
+      {
+        "maparea": {
+          "area": {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  11.04006193547361, 
+                  45.89344749832161
+                ], 
+                [
+                  11.04006605385925, 
+                  45.893546058028214
+                ], 
+                [
+                  11.040076521281664, 
+                  45.89371220058734
+                ], 
+                [
+                  11.040091063381132, 
+                  45.89385440113547
+                ], 
+                [
+                  11.040106423387147, 
+                  45.89400262700404
+                ], 
+                [
+                  11.040143447200135, 
+                  45.894356876716316
+                ], 
+                [
+                  11.040259175525138, 
+                  45.894348911570056
+                ], 
+                [
+                  11.040203193350157, 
+                  45.893812375029235
+                ], 
+                [
+                  11.04018979609195, 
+                  45.89368338165608
+                ], 
+                [
+                  11.040179252679126, 
+                  45.89356707048258
+                ], 
+                [
+                  11.040171689976919, 
+                  45.893442761044696
+                ], 
+                [
+                  11.04006193547361, 
+                  45.89344749832161
+                ]
+              ]
+            ]
+          }, 
+          "color": {
+            "red": 125, 
+            "green": 125, 
+            "blue": 125, 
+            "alpha": 0.5
+          }
+        }
+      }
+    ]
+  }, 
+  {
+    "type": "mapobject", 
+    "objectID": "park 'EX-ASM' _ 01", 
+    "objectType": "ParkingStation", 
+    "objectSubtype": "cardblock", 
+    "description": "Parkingslot", 
+    "location": {
+      "type": "Point", 
+      "coordinates": [
+        11.036182557874895, 
+        45.89356263772896
+      ]
+    }, 
+    "elements": [
+      {
+        "attribute": {
+          "label": "Microzone", 
+          "value": "park 'EX-ASM' _ 01"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Macrozone", 
+          "value": "[3] _ MANZONI _ A"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fee zone", 
+          "value": "Gialla"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fare per hour", 
+          "value": 0.5
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with cardblock clock", 
+          "value": 11
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots without stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with parking fee", 
+          "value": 24
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots reserved", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots for people with disabilities", 
+          "value": 2
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots fur taxis", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots not reserved", 
+          "value": 35
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Total number of slots", 
+          "value": 37
+        }
+      }, 
+      {
+        "maparea": {
+          "area": {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  11.036182557874895, 
+                  45.89356263772896
+                ], 
+                [
+                  11.036207503300059, 
+                  45.89363455658081
+                ], 
+                [
+                  11.036221408424545, 
+                  45.893668607563576
+                ], 
+                [
+                  11.036458982376773, 
+                  45.89362537163675
+                ], 
+                [
+                  11.03645851350757, 
+                  45.893610000524234
+                ], 
+                [
+                  11.036464935157563, 
+                  45.89359921804303
+                ], 
+                [
+                  11.03648147575499, 
+                  45.89359365789732
+                ], 
+                [
+                  11.036516597983885, 
+                  45.89358971062559
+                ], 
+                [
+                  11.036497584617694, 
+                  45.89351924765235
+                ], 
+                [
+                  11.036450412783253, 
+                  45.89334442938994
+                ], 
+                [
+                  11.036407901532593, 
+                  45.893357544619356
+                ], 
+                [
+                  11.03638600690834, 
+                  45.89334983467495
+                ], 
+                [
+                  11.036372471555566, 
+                  45.89332582855861
+                ], 
+                [
+                  11.036273097558073, 
+                  45.89336301684614
+                ], 
+                [
+                  11.036287897106243, 
+                  45.89338176214278
+                ], 
+                [
+                  11.036263863834515, 
+                  45.89338774832526
+                ], 
+                [
+                  11.036133752736463, 
+                  45.89343828644063
+                ], 
+                [
+                  11.036085761722621, 
+                  45.89345692789495
+                ], 
+                [
+                  11.036097817300979, 
+                  45.8935006603823
+                ], 
+                [
+                  11.036117547785476, 
+                  45.893572233988486
+                ], 
+                [
+                  11.03616415262613, 
+                  45.893565397173575
+                ], 
+                [
+                  11.036182557874895, 
+                  45.89356263772896
+                ]
+              ]
+            ]
+          }, 
+          "color": {
+            "red": 125, 
+            "green": 125, 
+            "blue": 125, 
+            "alpha": 0.5
+          }
+        }
+      }
+    ]
+  }, 
+  {
+    "type": "mapobject", 
+    "objectID": "park 'Follone' _ 02", 
+    "objectType": "ParkingStation", 
+    "objectSubtype": "cardblock", 
+    "description": "Parkingslot", 
+    "location": {
+      "type": "Point", 
+      "coordinates": [
+        11.03822100217955, 
+        45.88874056137128
+      ]
+    }, 
+    "elements": [
+      {
+        "attribute": {
+          "label": "Microzone", 
+          "value": "park 'Follone' _ 02"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Macrozone", 
+          "value": "[5] _ S. CATERINA _ A"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fee zone", 
+          "value": "Gialla"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fare per hour", 
+          "value": 0.5
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with cardblock clock", 
+          "value": 11
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots without stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with parking fee", 
+          "value": 165
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots reserved", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots for people with disabilities", 
+          "value": 5
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots fur taxis", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots not reserved", 
+          "value": 176
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Total number of slots", 
+          "value": 181
+        }
+      }, 
+      {
+        "maparea": {
+          "area": {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  11.03822100217955, 
+                  45.88874056137128
+                ], 
+                [
+                  11.038838077979106, 
+                  45.88927167332868
+                ], 
+                [
+                  11.039479122509425, 
+                  45.88916016900241
+                ], 
+                [
+                  11.039086787438196, 
+                  45.88834783143642
+                ], 
+                [
+                  11.038892134301642, 
+                  45.88838208733649
+                ], 
+                [
+                  11.038972050085698, 
+                  45.88856878353953
+                ], 
+                [
+                  11.038375812610779, 
+                  45.888649705830126
+                ], 
+                [
+                  11.03822100217955, 
+                  45.88874056137128
+                ]
+              ]
+            ]
+          }, 
+          "color": {
+            "red": 125, 
+            "green": 125, 
+            "blue": 125, 
+            "alpha": 0.5
+          }
+        }
+      }
+    ]
+  }, 
+  {
+    "type": "mapobject", 
+    "objectID": "Pavani _ 01", 
+    "objectType": "ParkingStation", 
+    "objectSubtype": "cardblock", 
+    "description": "Parkingslot", 
+    "location": {
+      "type": "Point", 
+      "coordinates": [
+        11.040324118216896, 
+        45.89250126947139
+      ]
+    }, 
+    "elements": [
+      {
+        "attribute": {
+          "label": "Microzone", 
+          "value": "Pavani _ 01"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Macrozone", 
+          "value": "[3] _ MANZONI _ B"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fee zone", 
+          "value": "Rossa"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fare per hour", 
+          "value": 1
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with cardblock clock", 
+          "value": 6
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots without stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with parking fee", 
+          "value": 7
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots reserved", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots for people with disabilities", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots fur taxis", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots not reserved", 
+          "value": 13
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Total number of slots", 
+          "value": 13
+        }
+      }, 
+      {
+        "maparea": {
+          "area": {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  11.040324118216896, 
+                  45.89250126947139
+                ], 
+                [
+                  11.04108896960096, 
+                  45.89264006107587
+                ], 
+                [
+                  11.041108479221489, 
+                  45.8925794144758
+                ], 
+                [
+                  11.040348614377782, 
+                  45.89244092480473
+                ], 
+                [
+                  11.040324118216896, 
+                  45.89250126947139
+                ]
+              ]
+            ]
+          }, 
+          "color": {
+            "red": 125, 
+            "green": 125, 
+            "blue": 125, 
+            "alpha": 0.5
+          }
+        }
+      }
+    ]
+  }, 
+  {
+    "type": "mapobject", 
+    "objectID": "Piomarta _ 02", 
+    "objectType": "ParkingStation", 
+    "objectSubtype": "cardblock", 
+    "description": "Parkingslot", 
+    "location": {
+      "type": "Point", 
+      "coordinates": [
+        11.040514344454246, 
+        45.89557985588215
+      ]
+    }, 
+    "elements": [
+      {
+        "attribute": {
+          "label": "Microzone", 
+          "value": "Piomarta _ 02"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Macrozone", 
+          "value": "[2] _ STADIO _ B"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fee zone", 
+          "value": "Gialla"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fare per hour", 
+          "value": 0.5
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with cardblock clock", 
+          "value": 4
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots without stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with parking fee", 
+          "value": 14
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots reserved", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots for people with disabilities", 
+          "value": 2
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots fur taxis", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots not reserved", 
+          "value": 18
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Total number of slots", 
+          "value": 21
+        }
+      }, 
+      {
+        "maparea": {
+          "area": {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  11.040514344454246, 
+                  45.89557985588215
+                ], 
+                [
+                  11.041614088486051, 
+                  45.89549308802571
+                ], 
+                [
+                  11.04159731048769, 
+                  45.895413492007634
+                ], 
+                [
+                  11.040506238858917, 
+                  45.89549744979278
+                ], 
+                [
+                  11.040514344454246, 
+                  45.89557985588215
+                ]
+              ]
+            ]
+          }, 
+          "color": {
+            "red": 125, 
+            "green": 125, 
+            "blue": 125, 
+            "alpha": 0.5
+          }
+        }
+      }
+    ]
+  }, 
+  {
+    "type": "mapobject", 
+    "objectID": "Posta _ 01", 
+    "objectType": "ParkingStation", 
+    "objectSubtype": "cardblock", 
+    "description": "Parkingslot", 
+    "location": {
+      "type": "Point", 
+      "coordinates": [
+        11.040525129946111, 
+        45.891496542669714
+      ]
+    }, 
+    "elements": [
+      {
+        "attribute": {
+          "label": "Microzone", 
+          "value": "Posta _ 01"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Macrozone", 
+          "value": "[3] _ MANZONI _ B"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fee zone", 
+          "value": "Rossa"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fare per hour", 
+          "value": 1
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with cardblock clock", 
+          "value": 11
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots without stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with parking fee", 
+          "value": 45
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots reserved", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots for people with disabilities", 
+          "value": 3
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots fur taxis", 
+          "value": 2
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots not reserved", 
+          "value": 56
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Total number of slots", 
+          "value": 61
+        }
+      }, 
+      {
+        "maparea": {
+          "area": {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  11.040525129946111, 
+                  45.891496542669714
+                ], 
+                [
+                  11.040608980728985, 
+                  45.89150197536505
+                ], 
+                [
+                  11.040705978102823, 
+                  45.89151337452101
+                ], 
+                [
+                  11.04072430057425, 
+                  45.89150300265448
+                ], 
+                [
+                  11.040898284353753, 
+                  45.89158260940935
+                ], 
+                [
+                  11.040909908723926, 
+                  45.89159241031981
+                ], 
+                [
+                  11.040911141281702, 
+                  45.89160494402026
+                ], 
+                [
+                  11.041030471653347, 
+                  45.89161439015513
+                ], 
+                [
+                  11.041050818728278, 
+                  45.89153692490805
+                ], 
+                [
+                  11.041012101048793, 
+                  45.89152501589972
+                ], 
+                [
+                  11.041040129966941, 
+                  45.891476980344535
+                ], 
+                [
+                  11.041115705916384, 
+                  45.89135530195225
+                ], 
+                [
+                  11.0411259540207, 
+                  45.89133908424321
+                ], 
+                [
+                  11.041170944324893, 
+                  45.891287084508164
+                ], 
+                [
+                  11.041315194392244, 
+                  45.89113986883027
+                ], 
+                [
+                  11.041349511948674, 
+                  45.891116124309015
+                ], 
+                [
+                  11.041402073814492, 
+                  45.89109430390328
+                ], 
+                [
+                  11.041467594778801, 
+                  45.89108494263086
+                ], 
+                [
+                  11.041544645281778, 
+                  45.891034962967794
+                ], 
+                [
+                  11.041081828250526, 
+                  45.89100426037381
+                ], 
+                [
+                  11.041185147837282, 
+                  45.89114003231397
+                ], 
+                [
+                  11.041077222420126, 
+                  45.89124909824336
+                ], 
+                [
+                  11.04099343556757, 
+                  45.89133921869322
+                ], 
+                [
+                  11.040974185332946, 
+                  45.891359093721924
+                ], 
+                [
+                  11.040958340710057, 
+                  45.891373417591474
+                ], 
+                [
+                  11.04094247330023, 
+                  45.89138360162845
+                ], 
+                [
+                  11.040917751031204, 
+                  45.89139484390357
+                ], 
+                [
+                  11.04089856123247, 
+                  45.89140229712749
+                ], 
+                [
+                  11.040876881222038, 
+                  45.891408624766804
+                ], 
+                [
+                  11.040857896600718, 
+                  45.891411124034725
+                ], 
+                [
+                  11.040831464722464, 
+                  45.891407365969904
+                ], 
+                [
+                  11.04080933685595, 
+                  45.89139795069372
+                ], 
+                [
+                  11.040796236093792, 
+                  45.89138162377071
+                ], 
+                [
+                  11.040610867806913, 
+                  45.89103976515212
+                ], 
+                [
+                  11.040489560633045, 
+                  45.891039231710145
+                ], 
+                [
+                  11.040467283017943, 
+                  45.89100812779719
+                ], 
+                [
+                  11.040256619426351, 
+                  45.89101018009313
+                ], 
+                [
+                  11.040257101349209, 
+                  45.891047973655716
+                ], 
+                [
+                  11.040274213878579, 
+                  45.89109782792297
+                ], 
+                [
+                  11.040308776404517, 
+                  45.891171203911824
+                ], 
+                [
+                  11.040365990284325, 
+                  45.891278494312175
+                ], 
+                [
+                  11.04038750479957, 
+                  45.891315507210614
+                ], 
+                [
+                  11.040407573403527, 
+                  45.89134154729834
+                ], 
+                [
+                  11.040443677172094, 
+                  45.891380630752806
+                ], 
+                [
+                  11.040525129946111, 
+                  45.891496542669714
+                ]
+              ]
+            ]
+          }, 
+          "color": {
+            "red": 125, 
+            "green": 125, 
+            "blue": 125, 
+            "alpha": 0.5
+          }
+        }
+      }
+    ]
+  }, 
+  {
+    "type": "mapobject", 
+    "objectID": "Rosmini _ 02", 
+    "objectType": "ParkingStation", 
+    "objectSubtype": "cardblock", 
+    "description": "Parkingslot", 
+    "location": {
+      "type": "Point", 
+      "coordinates": [
+        11.037817497724369, 
+        45.89099584255943
+      ]
+    }, 
+    "elements": [
+      {
+        "attribute": {
+          "label": "Microzone", 
+          "value": "Rosmini _ 02"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Macrozone", 
+          "value": "[3] _ MANZONI _ A"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fee zone", 
+          "value": "Rossa"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fare per hour", 
+          "value": 1
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with cardblock clock", 
+          "value": 13
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots without stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with parking fee", 
+          "value": 9
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots reserved", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots for people with disabilities", 
+          "value": 1
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots fur taxis", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots not reserved", 
+          "value": 22
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Total number of slots", 
+          "value": 23
+        }
+      }, 
+      {
+        "maparea": {
+          "area": {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  11.037817497724369, 
+                  45.89099584255943
+                ], 
+                [
+                  11.039473342429167, 
+                  45.89098476511663
+                ], 
+                [
+                  11.039472083501229, 
+                  45.890893102096356
+                ], 
+                [
+                  11.037816241520476, 
+                  45.890904179475385
+                ], 
+                [
+                  11.037817497724369, 
+                  45.89099584255943
+                ]
+              ]
+            ]
+          }, 
+          "color": {
+            "red": 125, 
+            "green": 125, 
+            "blue": 125, 
+            "alpha": 0.5
+          }
+        }
+      }
+    ]
+  }, 
+  {
+    "type": "mapobject", 
+    "objectID": "San Giovanni Bosco _ 03", 
+    "objectType": "ParkingStation", 
+    "objectSubtype": "cardblock", 
+    "description": "Parkingslot", 
+    "location": {
+      "type": "Point", 
+      "coordinates": [
+        11.0412375413305, 
+        45.892496013913
+      ]
+    }, 
+    "elements": [
+      {
+        "attribute": {
+          "label": "Microzone", 
+          "value": "San Giovanni Bosco _ 03"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Macrozone", 
+          "value": "[3] _ MANZONI _ B"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fee zone", 
+          "value": "Gialla"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fare per hour", 
+          "value": 0.5
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with cardblock clock", 
+          "value": 7
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots without stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with parking fee", 
+          "value": 14
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots reserved", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots for people with disabilities", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots fur taxis", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots not reserved", 
+          "value": 21
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Total number of slots", 
+          "value": 21
+        }
+      }, 
+      {
+        "maparea": {
+          "area": {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  11.0412375413305, 
+                  45.892496013913
+                ], 
+                [
+                  11.041224475406885, 
+                  45.893127791708785
+                ], 
+                [
+                  11.04131315666605, 
+                  45.893127008500166
+                ], 
+                [
+                  11.041326186643534, 
+                  45.89249625143246
+                ], 
+                [
+                  11.0412375413305, 
+                  45.892496013913
+                ]
+              ]
+            ]
+          }, 
+          "color": {
+            "red": 125, 
+            "green": 125, 
+            "blue": 125, 
+            "alpha": 0.5
+          }
+        }
+      }
+    ]
+  }, 
+  {
+    "type": "mapobject", 
+    "objectID": "Santa Maria _ 02", 
+    "objectType": "ParkingStation", 
+    "objectSubtype": "cardblock", 
+    "description": "Parkingslot", 
+    "location": {
+      "type": "Point", 
+      "coordinates": [
+        11.043419324771394, 
+        45.88498942651363
+      ]
+    }, 
+    "elements": [
+      {
+        "attribute": {
+          "label": "Microzone", 
+          "value": "Santa Maria _ 02"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Macrozone", 
+          "value": "[6] _ S. MARIA _ A"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fee zone", 
+          "value": "Gialla"
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Fare per hour", 
+          "value": 0.5
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with cardblock clock", 
+          "value": 4
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots without stripes", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots with parking fee", 
+          "value": 6
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots reserved", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots for people with disabilities", 
+          "value": 1
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots fur taxis", 
+          "value": 0
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Slots not reserved", 
+          "value": 10
+        }
+      }, 
+      {
+        "attribute": {
+          "label": "Total number of slots", 
+          "value": 12
+        }
+      }, 
+      {
+        "maparea": {
+          "area": {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  11.043419324771394, 
+                  45.88498942651363
+                ], 
+                [
+                  11.043486680361932, 
+                  45.885017973090804
+                ], 
+                [
+                  11.043515670349446, 
+                  45.88502853993945
+                ], 
+                [
+                  11.043554946502411, 
+                  45.88504469593047
+                ], 
+                [
+                  11.043616133191767, 
+                  45.88507147235285
+                ], 
+                [
+                  11.043646618758872, 
+                  45.88508481337644
+                ], 
+                [
+                  11.043680711794577, 
+                  45.88509973307466
+                ], 
+                [
+                  11.04371648843261, 
+                  45.88511538952639
+                ], 
+                [
+                  11.043759228511554, 
+                  45.885137388235556
+                ], 
+                [
+                  11.043791264502248, 
+                  45.88514919382076
+                ], 
+                [
+                  11.043889621199552, 
+                  45.885192585836116
+                ], 
+                [
+                  11.043928469993144, 
+                  45.88514757834868
+                ], 
+                [
+                  11.043765530859918, 
+                  45.88506058027395
+                ], 
+                [
+                  11.0437428341293, 
+                  45.88504087013481
+                ], 
+                [
+                  11.043642000464311, 
+                  45.88498853579197
+                ], 
+                [
+                  11.04336456189716, 
+                  45.884849006832994
+                ], 
+                [
+                  11.043282996497673, 
+                  45.88493578832333
+                ], 
+                [
+                  11.043354556040404, 
+                  45.88496394337028
+                ], 
+                [
+                  11.043419324771394, 
+                  45.88498942651363
+                ]
+              ]
+            ]
+          }, 
+          "color": {
+            "red": 125, 
+            "green": 125, 
+            "blue": 125, 
+            "alpha": 0.5
+          }
+        }
+      }
+    ]
+  }
+]

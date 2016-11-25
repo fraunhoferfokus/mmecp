@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar>
+  <module-name>dataaggregator</module-name>
+  <enterprise-beans>
+    <session>
+      <ejb-name>DataAggregatorClient</ejb-name>
+      <home>de.fhg.fokus.streetlife.mmecp.dataaggregator.DataAggregatorClient</home>
+      <remote>de.fhg.fokus.streetlife.mmecp.dataaggregator.DataAggregatorClient</remote>
+      <ejb-class>de.fhg.fokus.streetlife.mmecp.dataaggregator.generic.DataAggregatorClientImpl</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+    </session>
+  </enterprise-beans>
+  <assembly-descriptor>
+    <container-transaction>
+      <method>
+        <ejb-name>DataAggregatorClient</ejb-name>
+        <method-name>*</method-name>
+      </method>
+      <trans-attribute>Required</trans-attribute>
+    </container-transaction>
+  </assembly-descriptor>
+</ejb-jar>

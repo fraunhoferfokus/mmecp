@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+        >
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>de.fhg.fokus.streetlife</groupId>
+        <artifactId>mmecp</artifactId>
+        <version>0.1</version>
+    </parent>
+
+    <groupId>de.fhg.fokus.streetlife.mmecp</groupId>
+    <artifactId>analytics</artifactId>
+    <packaging>jar</packaging>
+    <name>analytics</name>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>xalan</groupId>
+            <artifactId>xalan</artifactId>
+            <version>2.7.2</version>
+        </dependency>
+    </dependencies>
+
+</project>
