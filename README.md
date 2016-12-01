@@ -6,10 +6,10 @@ Implementation of STREETLIFE Mobility and Emission Control Panel Backend in Java
 # Installation
 
 **Prerequisite**
-Oracle/OpenJDK JDK >= 1.8
-Apache Maven >= 3.2
-JBoss WildFly (Java EE7 Full & Web Distribution) >= 8.1
-GIT >= 1.9.4
+ * Oracle/OpenJDK JDK >= 1.8
+ * Apache Maven >= 3.2
+ * JBoss WildFly (Java EE7 Full & Web Distribution) >= 8.1
+ * GIT >= 1.9.4
 
 **Setup your system**
 Start your installed WildFly and go to ​http://localhost:9990/console. Follow the instructions on that site to create a management user for WildFly. If you want to access WildFly from another machine like localhost, you have to configurate the interfaces: ​https://docs.jboss.org/author/display/WFLY8/Interfaces+and+ports
